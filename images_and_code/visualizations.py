@@ -1,6 +1,6 @@
 """
 This module is for your final visualization code.
-One visualization per hypothesis question is required.
+After you have done your EDA and wish to create some visualizations for you final jupyter notebook
 A framework for each type of visualization is provided.
 """
 
