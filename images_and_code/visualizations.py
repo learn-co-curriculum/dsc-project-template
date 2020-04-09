@@ -91,6 +91,7 @@ def sample_plot2():
     # Decoration
     plt.title('Density Plot of City Mileage by n_Cylinders', fontsize=22)
     plt.legend()
+    plt.savefig(f'images_and_code/viz1.png', transparent = True, figure = fig)
     plt.show()
 
     pass
