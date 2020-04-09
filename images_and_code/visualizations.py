@@ -95,7 +95,7 @@ def visualization_one(target_var = None, input_vars= None, output_image_name=Non
     plt.legend()
 
     # exporting the image to the img folder
-    plt.savefig(f'img/{output_image_name}.png', transparent = True, figure = fig)
+    plt.savefig(f'images_and_code/{output_image_name}.png', transparent = True, figure = fig)
     return fig
 
 
