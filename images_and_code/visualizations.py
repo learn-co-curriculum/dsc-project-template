@@ -64,7 +64,8 @@ def sample_plot_1():
     ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: format(int(x), ',')))
 
     plt.title("Scatterplot of Midwest Area vs Population", fontsize=22)
-    plt.legend(fontsize=12)    
+    plt.legend(fontsize=12)
+    plt.savefig('./images_and_code/viz1.png', transparent = True)
     plt.show()  
 
 
@@ -90,8 +91,9 @@ def sample_plot2():
 
     # Decoration
     plt.title('Density Plot of City Mileage by n_Cylinders', fontsize=22)
+    plt.gca().set(xlabel='Mileage per Gallon in the City', ylabel='Kernel Denisty')
     plt.legend()
-    plt.savefig(f'images_and_code/viz1.png', transparent = True, figure = fig)
+    plt.savefig('./images_and_code/viz2.png', transparent = True)
     plt.show()
 
     pass
