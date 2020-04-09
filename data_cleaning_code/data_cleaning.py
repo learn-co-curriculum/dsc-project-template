@@ -1,9 +1,11 @@
 """
 This module is for your data cleaning.
 It should be repeatable.
+If you are combining different data sources you might need a few different functions
 
-## PRECLEANING
-There should be a separate script recording how you transformed the json api calls into a dataframe and csv.
+
+## Data links:
+
 
 ## SUPPORT FUNCTIONS
 There can be an unlimited amount of support functions.
@@ -12,18 +14,24 @@ Each support function should have an informative name and return the partially c
 import pandas as pd
 
 def support_function_one(example):
+    """This one might read in the data from imdb and clean it"""
     pass
 
 def support_function_two(example):
+    """This function might read in and clean a different data source"""
     pass
 
 def support_function_three(example):
+    """This one might merge the above two sources and create a few new variables"""
     pass
 
 def full_clean():
     """
     This is the one function called that will run all the support functions.
-    Assumption: Your data will be saved in a data folder and named "dirty_data.csv"
+    Assumption: 
+        - Your data files will be saved in a data folder and named "dirty_data.csv"
+        - OR you might read directly from a few urls
+        - this code is guidance, not rules
 
     :return: cleaned dataset to be passed to hypothesis testing and visualization modules.
     """

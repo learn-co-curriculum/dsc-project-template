@@ -5,7 +5,13 @@ A framework for each type of visualization is provided.
 """
 
 import matplotlib.pyplot as plt
+from matplotlib.axes._axes import _log as matplotlib_axes_logger
+from matplotlib.ticker import FuncFormatter
 import seaborn as sns
+import pandas as pd
+import numpy as np
+
+matplotlib_axes_logger.setLevel('ERROR')
 
 # Set specific parameters for the visualizations
 large = 22; med = 16; small = 12
@@ -21,54 +27,71 @@ plt.style.use('seaborn-whitegrid')
 sns.set_style("white")
 
 
-def overlapping_density(package=None, input_vars=None, target_vars=None):
+def sample_plot_1():
     """
-    Set the characteristics of your overlapping density plot
-    All arguments are set to None purely as a filler right now
+    This is a sample visualization function to show what one looks like.
+    The code is borrowed from https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
 
-    Function takes package name, input variables(categories), and target variable as input.
-    Returns a figure
-
-    Should be able to call this function in later visualization code.
-
-    PARAMETERS
-
-    :param package:        should only take sns or matplotlib as inputs, any other value should throw and error
-    :param input_vars:     should take the x variables/categories you want to plot
-    :param target_vars:    the y variable of your plot, what you are comparing
-    :return:               fig to be enhanced in subsequent visualization functions
+    This function takes no arguments and shows a nice visualization without having all your code in the notebook itself.
     """
 
     # Set size of figure
-    fig = plt.figure(figsize=(16, 10), dpi=80)
-
-    # Starter code for figuring out which package to use
-    if package == "sns":
-        for variable in input_vars:
-            sns.kdeplot(...)
-    elif package == 'matplotlib':
-        for variable in input_vars:
-            plt.plot(..., label=None, linewidth=None, color=None, figure = fig)
-
-    return fig
+    fig = plt.figure(figsize=(16, 10), dpi=80)  
 
 
+    # Import dataset 
+    midwest = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/midwest_filter.csv")
 
-def boxplot_plot(package=None, input_vars=None, target_vars=None):
+    # Prepare Data 
+    # Create as many colors as there are unique midwest['category']
+    categories = np.unique(midwest['category'])
+    colors = [plt.cm.tab10(i/float(len(categories)-1)) for i in range(len(categories))]
+
+    # create ax element
+    fig, ax = plt.subplots(figsize=(16, 10), dpi= 80, facecolor='w', edgecolor='k')
+
+    # Draw Plot for Each Category
+    for i, category in enumerate(categories):
+        plt.scatter('area', 'poptotal', 
+                    data=midwest.loc[midwest.category==category, :], 
+                    s=20, c=colors[i], label=str(category))
+
+    # Decorations
+    plt.gca().set(xlim=(0.0, 0.1), ylim=(0, 90000),
+                  xlabel='Area', ylabel='Population')
+
+    plt.xticks(fontsize=12); plt.yticks(fontsize=12)
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: format(int(x), ',')))
+
+    plt.title("Scatterplot of Midwest Area vs Population", fontsize=22)
+    plt.legend(fontsize=12)    
+    plt.show()  
+
+
+
+def sample_plot2():
     """
-    Same specifications and requirements as overlapping density plot
+    This is a sample visualization function to show what one looks like.
+    The code is borrowed from https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
 
-    Function takes package name, input variables(categories), and target variable as input.
-    Returns a figure
-
-    PARAMETERS
-
-    :param package:        should only take sns or matplotlib as inputs, any other value should throw and error
-    :param input_vars:     should take the x variables/categories you want to plot
-    :param target_vars:    the y variable of your plot, what you are comparing
-    :return:               fig to be enhanced in subsequent visualization functions
+    This function takes no arguments and shows a nice visualization without having all your code in the notebook itself.
     """
+
     plt.figure(figsize=(16, 10), dpi=80)
+    # Import Data
+    df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mpg_ggplot2.csv")
+
+    # Draw Plot
+    plt.figure(figsize=(16,10), dpi= 80)
+    sns.kdeplot(df.loc[df['cyl'] == 4, "cty"], shade=True, color="g", label="Cyl=4", alpha=.7)
+    sns.kdeplot(df.loc[df['cyl'] == 5, "cty"], shade=True, color="deeppink", label="Cyl=5", alpha=.7)
+    sns.kdeplot(df.loc[df['cyl'] == 6, "cty"], shade=True, color="dodgerblue", label="Cyl=6", alpha=.7)
+    sns.kdeplot(df.loc[df['cyl'] == 8, "cty"], shade=True, color="orange", label="Cyl=8", alpha=.7)
+
+    # Decoration
+    plt.title('Density Plot of City Mileage by n_Cylinders', fontsize=22)
+    plt.legend()
+    plt.show()
 
     pass
 
