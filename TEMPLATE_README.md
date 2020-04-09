@@ -42,7 +42,7 @@ After lookin at x, y, and z we focused on number of clowns per movie, combined w
 
 
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation]
+Please review the narrative of our analysis in [our jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./project_slide_template.pdf)
 
 For any additional questions, please contact **email, email, email)
 
