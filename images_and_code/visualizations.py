@@ -3,13 +3,21 @@ This module is for your final visualization code.
 After you have done your EDA and wish to create some visualizations for you final jupyter notebook
 A framework for each type of visualization is provided.
 """
-
+# visualization packages
 import matplotlib.pyplot as plt
 from matplotlib.axes._axes import _log as matplotlib_axes_logger
 from matplotlib.ticker import FuncFormatter
 import seaborn as sns
+
+# Standard data manipulation packages
 import pandas as pd
 import numpy as np
+
+# System and Image manipulation packages
+import PIL
+from PIL import Image
+
+
 
 matplotlib_axes_logger.setLevel('ERROR')
 
@@ -66,9 +74,15 @@ def sample_plot_1():
     plt.title("Scatterplot of Midwest Area vs Population", fontsize=22)
     plt.legend(fontsize=12)
     plt.savefig('./images_and_code/viz1.png', transparent = True)
+    
     plt.show()  
-
-
+    
+    # little resizing
+    im = Image.open("./images_and_code/viz1.png")
+    resized = im.resize((768,480), PIL.Image.ANTIALIAS)
+    resized.save('./images_and_code/viz1.png')
+    
+    pass
 
 def sample_plot2():
     """
@@ -95,6 +109,11 @@ def sample_plot2():
     plt.legend()
     plt.savefig('./images_and_code/viz2.png', transparent = True)
     plt.show()
+    
+    # little resizing
+    im = Image.open("./images_and_code/viz2.png")
+    resized = im.resize((768,480), PIL.Image.ANTIALIAS)
+    resized.save('./images_and_code/viz2.png')
 
     pass
 
