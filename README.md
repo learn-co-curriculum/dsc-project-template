@@ -7,7 +7,6 @@ This repo contains:
 - presentation pdf:
 - data folder:
   - for this project this is where you will store your data
-  - in future projects, you will not have a data folder
 - data_cleaning_code folder:
   - `__init__.py` :python helper file, tells python there are packages 
   - contains sample `data_cleaning.py` script to clean data and prepare it for analysis and visualization
@@ -20,6 +19,17 @@ This repo contains:
 
 ***
 ## Student instructions
-PROJECT GOAL
+
+1. Through github, fork this repository to you own account (if in a group project, have only one team member do steps one through five)
+2. In github, on the forked repo, click "Settings"
+3. On the Setting page, the first tab is "Options". On that page there  "Repository Name" with a text field, and a button "Rename"
+4. Change the name of the forked repo to a project repo name of your choosing
+5. If you are part of a group project(if not, proceed to step 6):
+   - Go to the "Manage Access" tab within "settings"
+   - Add your project team members as collaborators
+   - copy the link to clone the repository and share it with teammates 
+6. Through the terminal on your local machine, `git clone` the project to your local computer
+7. Move the data from the project description into the `data` folder on your local machine
+8. You are now ready to start using these materials!
 
 
