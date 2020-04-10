@@ -4,6 +4,7 @@ The purpose of this repository is to provide structure and begin to model best p
 
 This repo contains:
 - TEMPLATE_README: An example of a Readme for your project 
+  - This should be an abstract of your complete analysis
 - `dsc-mod1-project-template.ipynb`: A starter jupyter notebook
   - inside the notebook there is some text and `| guiding questions within lined sections |` that should be answered in narrative form
   - sample visualizations. Their code is in the `visualizations.py` file as a reference. 

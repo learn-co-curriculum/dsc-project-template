@@ -1,7 +1,52 @@
-## Microsoft should make Clown-based-Horror Movies with Judd Apatow and Lawrence Fishburn
+# Titlle that recommends an action
+## Subtitle describing the analysis 
+
 **Authors**: Student1, StudentQ, Student_Other
 
+The contents of this repository detail an analysis of the module one project. This analysis is detailed in hopes of making the work accessible and replicable.
+
+
+### Business problem:
+
+Here is where you state the business problem you were trying to solve
+
+
+### Data
+Data can include source and high-level description (e.g. # obs)
+
+
+## Methods
+- descriptive analysis
+- choices made
+- key relevant findings from exploritory data analysis for mod 1, will be more involved in future mod
+
+## Results
+### Here are examples of how to embed images from your sub-folder
+#### Visual 1
+![graph1](./images_and_code/viz1.png)
+
+#### Visual 2
+![graph1](./images_and_code/viz2.png)
+
+
+
+## Recommendations:
+
+
+
+
+## Limitations & Next Steps
+
+
+### For further information
+Please review the narrative of our analysis in [our jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
+
+For any additional questions, please contact **email, email, email)
+
+
 ##### Repository Structure:
+
+Here is where you would describe the structure of your repoistory and its contents, for exampe:
 
 ```
 
@@ -23,32 +68,5 @@
     └── images                          <- both sourced externally and generated from code
 
 ```
-
-### Business problem:
-Microsoft* sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. 
-
-Our team analyzied movie data from  [Box Office Mojo](www.boxofficemojo.com), [IMDB](www.IMDB.com), [Rotten Tomatoes](www.rottentomatoes.com), and [TheMovieDB.org](www.TheMovieDB.org) to help them better understand the movie industry. 
-
-### Recommendations:
-
-After lookin at x, y, and z we focused on number of clowns per movie, combined with Director of the movie, as the most useful metrics to measure movie potential. We created a new variable to capture to the clowns to actors ratio and as you can see in these two visuals that have nothing to do with our analysis, they clearly show that point:
-
-#### Visual 1
-![graph1](./images_and_code/viz1.png)
-
-#### Visual 2
-![graph1](./images_and_code/viz2.png)
-
-
-
-### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./project_slide_template.pdf)
-
-For any additional questions, please contact **email, email, email)
-
-
-
-
-*Microsoft was not actually involved in the commission of this project
 
 
