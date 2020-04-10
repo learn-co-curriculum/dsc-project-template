@@ -1,6 +1,10 @@
 # Module 1 project template
 
-The purpose of this repository is to provide structure and begin to model best practices for data science project repositories. Student repositories become  useful in the job search, as employers can review the qualitiy of student work _before_ the interview. To set students up for success, the module 1 project is expected to mirror the structure of this repository. All content is in draft form, to guide students in creating project repositories. Repository structure will mature further with later projects.
+![bluebrint2](images_and_code/blueprint.png)
+
+A blueprint provides guidance and structure before something in created. This repoistory provides similar sturcture and guidance for your first data science project. How analysis is structured is will provide the foundation for your work. This guidance also alllows to students to focus on the _foundational skills_ what will be built upon lter in the course.
+
+Student repositories are  useful in the job search, as employers can see the qualitiy of student work _before_ the interview. To set students up for success, the module 1 project is expected to mirror the structure of this repository. All content is in draft form, to guide students in creating project repositories. Repository structure will mature further with later projects.
 
 This repo contains:
 - TEMPLATE_README: An example of a Readme for your project 
