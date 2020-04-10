@@ -34,7 +34,7 @@ This repo contains:
 
 2. In github, on the forked repo, click "Settings"
 3. On the Setting page, the first tab is "Options". On that page there  "Repository Name" with a text field, and a button "Rename"
-4. Change the name of the forked repo to a _decriptive_ project repo name of your choosing. "Microsoft-Move-Analsis" is a **better** repo name than "Mod-Project-1"
+4. Change the name of the forked repo to a _decriptive_ project repo name of your choosing. "Microsoft-Movie-Analsis" is a **better** repo name than "Mod-Project-1"
 5. If you are part of a group project(if not, proceed to step 6):
    - Go to the "Manage Access" tab within "settings"
    - Add your project team members as collaborators
