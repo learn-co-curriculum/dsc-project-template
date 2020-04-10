@@ -21,7 +21,10 @@ Data can include source and high-level description (e.g. # obs)
 - key relevant findings from exploritory data analysis for mod 1, will be more involved in future mod
 
 ## Results
+
 ### Here are examples of how to embed images from your sub-folder
+
+
 #### Visual 1
 ![graph1](./images_and_code/viz1.png)
 
@@ -32,10 +35,12 @@ Data can include source and high-level description (e.g. # obs)
 
 ## Recommendations:
 
-
+More of your own text here
 
 
 ## Limitations & Next Steps
+
+More of your own text here
 
 
 ### For further information
