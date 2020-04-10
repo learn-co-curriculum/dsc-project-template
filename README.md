@@ -9,6 +9,7 @@ This repo contains:
   - sample visualizations. Their code is in the `visualizations.py` file as a reference. 
 - `__init__.py` :python helper file, tells python there are packages 
 - presentation pdf:
+  - PDF of slide deck used in class presentation, [online version also provided](https://docs.google.com/presentation/d/1PnqhxdN1P1tY3MKCXKmShO0sYLRQF2DSMzMN_tnk5xo/edit?usp=sharing) in readme.
   - The online editable version of this file can be found [here](https://docs.google.com/presentation/d/1iS5kCJVBiieuUEokWLOSjuAxlz9oX-tPV2xr0i9RYdA/edit?usp=sharing)
   - Please make a copy of the file before editing
 - data folder:
@@ -43,6 +44,11 @@ This repo contains:
 7. Move the data from the project description into the `data` folder on your local machine
 8. You are now ready to start using these materials!
 
+**To use the slide template**
+1. Go to [this link](https://docs.google.com/presentation/d/1eYnFN5ojOD7RNXDv9dj-ZBwrASru0pnlnwTg3NVXdoU/edit?usp=sharing)
+2. The google slides will show that they are "view only"
+3. Go to "File" and select "Make a Copy"
+4. Google will then create an **editable** copy of the slide deck in your own account.
 
 ***
 ## Please note
