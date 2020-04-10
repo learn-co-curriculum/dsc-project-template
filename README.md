@@ -1,5 +1,7 @@
 # Module 1 project template
 
+The purpose of this repository is to provide structure and begin to model best practices for data science project repositories. Student repositories become  useful in the job search, as employers can review the qualitiy of student work _before_ the interview. To set students up for success, the module 1 project is expected to mirror the structure of this repository. All content is in draft form, to guide students in creating project repositories. Repository structure will mature further with later projects.
+
 This repo contains:
 - TEMPLATE_README: An example of a Readme for your project 
 - `dsc-mod1-project-template.ipynb`: A starter jupyter notebook
@@ -14,7 +16,7 @@ This repo contains:
 - data_cleaning_code folder:
   - `__init__.py` :python helper file, tells python there are packages 
   - contains sample `data_cleaning.py` script to clean data and prepare it for analysis and visualization
-  - This is where the messy EDA/data cleaning notebook can also live
+  - You may find it helpful to have a notebook here for messy EDA or data preparation
 - images_and_code folder:
   - `__init__.py` :python helper file, tells python there are packages 
   - contains sample `visualizations.py` file to create the project visuals. This is an example file only. 
@@ -24,14 +26,19 @@ This repo contains:
 ***
 ## Student instructions
 
-1. Through github, fork this repository to you own account (if in a group project, have only one team member do steps one through five)
+1. Through github, fork this repository to you own account 
+
+**If in a group project, have only one team member do steps one through five**
+
 2. In github, on the forked repo, click "Settings"
 3. On the Setting page, the first tab is "Options". On that page there  "Repository Name" with a text field, and a button "Rename"
-4. Change the name of the forked repo to a project repo name of your choosing
+4. Change the name of the forked repo to a _decriptive_ project repo name of your choosing. "Microsoft-Move-Analsis" is a **better** repo name than "Mod-Project-1"
 5. If you are part of a group project(if not, proceed to step 6):
    - Go to the "Manage Access" tab within "settings"
    - Add your project team members as collaborators
    - copy the link to clone the repository and share it with teammates 
+
+
 6. Through the terminal on your local machine, `git clone` the project to your local computer
 7. Move the data from the project description into the `data` folder on your local machine
 8. You are now ready to start using these materials!
