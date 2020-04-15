@@ -2,9 +2,9 @@
 
 ![bluebrint2](images_and_code/blueprint.png)
 
-A blueprint provides guidance and structure before something in created. This repoistory provides similar sturcture and guidance for your first data science project. How analysis is structured is will provide the foundation for your work. This guidance also alllows to students to focus on the _foundational skills_ what will be built upon lter in the course.
+A blueprint provides guidance and structure before something in created. This repository provides similar sturcture and guidance for your first data science project. How your analysis is structured will provide the foundation for your work. This guidance also allows you to focus on the _foundational skills_ what will be built upon later in the course.
 
-Student repositories are  useful in the job search, as employers can see the qualitiy of student work _before_ the interview. To set students up for success, the module 1 project is expected to mirror the structure of this repository. All content is in draft form, to guide students in creating project repositories. Repository structure will mature further with later projects.
+Your repository will be useful in the job search, as employers will look at them to see the qualitiy of student work _before_ the interview. To set you up for success, your Module 1 project can use the structure of this repository. All content is in draft form, to guide you in creating your project repository. You can build on this structure further with later projects.
 
 This repo contains:
 - TEMPLATE_README: An example of a Readme for your project 
@@ -30,15 +30,15 @@ This repo contains:
 - hidden `.gitignore` file that tells git to not track certain files and folders
 
 ***
-## Student instructions
+## Instructions
 
-1. Through github, fork this repository to you own account 
+1. Through Github, fork this repository to you own account 
 
 **If in a group project, have only one team member do steps one through five**
 
-2. In github, on the forked repo, click "Settings"
+2. In Github, on the forked repo, click "Settings"
 3. On the Setting page, the first tab is "Options". On that page there  "Repository Name" with a text field, and a button "Rename"
-4. Change the name of the forked repo to a _decriptive_ project repo name of your choosing. "Microsoft-Movie-Analsis" is a **better** repo name than "Mod-Project-1"
+4. Change the name of the forked repo to a _descriptive_ project repo name of your choosing. "Microsoft-Movie-Analysis" is a **better** repo name than "Mod-Project-1"
 5. If you are part of a group project(if not, proceed to step 6):
    - Go to the "Manage Access" tab within "settings"
    - Add your project team members as collaborators
@@ -59,7 +59,7 @@ This repo contains:
 ## Please note
 - The code within `visualizations.py` and `data_cleaning.py` is an example of well documented code.
 - The visualizations in the notebook, generated from `visualizations.py` have clear axes, titles, and appropriate number formatting. Please use as a reference.
-- The `dsc-mod1-project-template.ipynb`is intented to be the _final version_ of your project. 
+- The `dsc-mod1-project-template.ipynb` is intented to be the _final version_ of your project. 
      - The first noteook you create will not look like this. 
      - You are encouraged to start with a very disorderly notebook and clean it as you go.
 - Before you finish this project, delete **this** readme from the repo using `git rm README.md`, followed by `git mv TEMPLATE_README.md README.md`
