@@ -55,15 +55,10 @@ Here is where you would describe the structure of your repoistory and its conten
 
 ```
 
-├── __init__.py                     <- .py file that signals to python these folders contain packages.
 ├── README.md                       <- The top-level README for reviewers of this project.
 ├── dsc-mod1-project-template.ipynb <- narrative documentation of analysis in jupyter notebook
 ├── presentation.pdf                <- pdf version of project presentation
-├── code
-│   ├── __init__.py                     <- .py file that signals to python these folders contain packages.
-│   ├── visualizations.py               <- .py script to create finalized versions of visuals for project
-│   └── data_cleaning.py                <- .py script used to pre-process and clean data
-└── images_and_code
+└── images
     └── images                          <- both sourced externally and generated from code
 
 ```
