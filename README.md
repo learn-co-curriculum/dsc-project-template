@@ -1,4 +1,4 @@
-# Module 1 project template - Above and Beyond
+# Module 1 project template - MVP
 
 ![bluebrint2](images/blueprint.png)
 
