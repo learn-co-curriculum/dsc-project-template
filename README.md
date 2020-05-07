@@ -11,8 +11,7 @@ This repo contains:
   - This should be an abstract of your complete analysis
 - `dsc-mod1-project-template.ipynb`: A starter jupyter notebook
   - inside the notebook there is some text and `| guiding questions within lined sections |` that should be answered in narrative form
-  - sample visualizations. Their code is in the `visualizations.py` file as a reference. 
-- `__init__.py` :python helper file, tells python there are packages 
+  - sample visualizations.
 - presentation pdf:
   - PDF of slide deck used in class presentation, [online version also provided](https://docs.google.com/presentation/d/1PnqhxdN1P1tY3MKCXKmShO0sYLRQF2DSMzMN_tnk5xo/edit?usp=sharing) in readme.
   - The online editable version of this file can be found [here](https://docs.google.com/presentation/d/1iS5kCJVBiieuUEokWLOSjuAxlz9oX-tPV2xr0i9RYdA/edit?usp=sharing)
@@ -49,7 +48,6 @@ This repo contains:
 
 ***
 ## Please note
-- The code within `visualizations.py` and `data_cleaning.py` is an example of well documented code.
 - The `dsc-mod1-project-template.ipynb`is intented to be the _final version_ of your project. 
      - The first noteook you create will not look like this. 
      - You are encouraged to start with a very disorderly notebook and clean it as you go.
