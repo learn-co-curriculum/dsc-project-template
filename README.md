@@ -17,11 +17,6 @@ This repo contains:
   - PDF of slide deck used in class presentation, [online version also provided](https://docs.google.com/presentation/d/1PnqhxdN1P1tY3MKCXKmShO0sYLRQF2DSMzMN_tnk5xo/edit?usp=sharing) in readme.
   - The online editable version of this file can be found [here](https://docs.google.com/presentation/d/1iS5kCJVBiieuUEokWLOSjuAxlz9oX-tPV2xr0i9RYdA/edit?usp=sharing)
   - Please make a copy of the file before editing
-- code folder:
-  - `__init__.py` :python helper file, tells python there are packages 
-  - contains sample `data_cleaning.py` script to clean data and prepare it for analysis and visualization
-  - contains sample `visualizations.py` to produce visualizations
-  - You may find it helpful to have a notebook here for messy EDA or data preparation
 - images folder:
   - contains images used in jupyter notebook markdown
 - hidden `.gitignore` file that tells git to not track certain files and folders
@@ -55,7 +50,6 @@ This repo contains:
 ***
 ## Please note
 - The code within `visualizations.py` and `data_cleaning.py` is an example of well documented code.
-- The visualizations in the notebook, generated from `visualizations.py` have clear axes, titles, and appropriate number formatting. Please use as a reference.
 - The `dsc-mod1-project-template.ipynb`is intented to be the _final version_ of your project. 
      - The first noteook you create will not look like this. 
      - You are encouraged to start with a very disorderly notebook and clean it as you go.
