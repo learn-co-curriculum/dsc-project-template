@@ -26,10 +26,10 @@ Data can include source and high-level description (e.g. # obs)
 
 
 #### Visual 1
-![graph1](./images_and_code/viz1.png)
+![graph1](./images/viz1.png)
 
 #### Visual 2
-![graph1](./images_and_code/viz2.png)
+![graph1](./images/viz2.png)
 
 
 
@@ -59,17 +59,11 @@ Here is where you would describe the structure of your repoistory and its conten
 ├── README.md                       <- The top-level README for reviewers of this project.
 ├── dsc-mod1-project-template.ipynb <- narrative documentation of analysis in jupyter notebook
 ├── presentation.pdf                <- pdf version of project presentation
-├── data
-│   ├── README.md                       <- lower-level README describing the data sources provided
-│   ├── file_1                          <- sample data file
-│   ├── file_2                          <- sample data file
-│   └── file_3                          <- yet another sample data file
-├── data_cleaning_code
+├── code
 │   ├── __init__.py                     <- .py file that signals to python these folders contain packages.
+│   ├── visualizations.py               <- .py script to create finalized versions of visuals for project
 │   └── data_cleaning.py                <- .py script used to pre-process and clean data
 └── images_and_code
-    ├── __init__.py                     <- .py file that signals to python these folders contain packages.
-    ├── visualizations.py               <- .py script to create finalized versions of visuals for project
     └── images                          <- both sourced externally and generated from code
 
 ```
