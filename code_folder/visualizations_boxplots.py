@@ -104,3 +104,45 @@ def dist_plot_cats_dogs(data, file_name):
     plt.savefig(path)
     plt.close(fig)  
     pass
+
+
+def highlight_breed_days_in_shelter(dataset, file_name):
+    
+    test = dataset.loc[(dataset.species=="Dog") &(dataset.year==2019) & (dataset.outcome_type =="Adoption")]
+    breeds_sub = test.breed.value_counts()[:15]
+    breed_list = breeds_sub.index.to_list()
+
+    medians= test.loc[test.breed.isin(breed_list)].groupby(['breed'])["days_in_shelter"].quantile(q=.75)
+    medians.sort_index(inplace=True)
+
+    nobs = test.loc[test.breed.isin(breed_list)]["breed"].value_counts().values
+    nobs = [str(x) for x in nobs.tolist()]
+    nobs = ["n: " + i for i in nobs]
+
+    fig = plt.figure(figsize=(16, 10), dpi=80) 
+
+    # Creates one subplot within our figure and uses the classes fig and ax
+    fig, ax = plt.subplots(figsize=(16, 10), dpi= 80, facecolor='w', edgecolor='k')
+    
+    my_pal = {breed: "c" if breed == "Staffordshire" else "w" for breed in breed_list}
+
+    chart = sns.boxplot( x=test.loc[test.breed.isin(breed_list)].sort_values(by=['breed'])["breed"], y=test.loc[test.breed.isin(breed_list)].sort_values(by=['breed'])["days_in_shelter"],palette=my_pal, showfliers=False )
+    #ax.xaxis.set_major_locator()
+    plt.xticks(rotation=45, 
+        horizontalalignment='right')
+    #ax.set_ylim(0, 100)
+    # Add it to the plot
+    pos = range(len(nobs))
+    for tick,label in zip(pos,ax.get_xticklabels()):
+        ax.text(pos[tick], medians[tick]+ 0.03, nobs[tick], horizontalalignment='center', size='large', color='black', weight='semibold')
+
+    ax.set_title("Distribution of days spent in shelter before adoption")
+    ax.set_xlabel("Dog breeds")
+    ax.set_ylabel("Days spent in shelter")
+    
+    plt.tight_layout()
+    
+    path = './images/'+file_name+'.png'
+    plt.savefig(path)
+    plt.close(fig)  
+    pass
