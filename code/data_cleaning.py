@@ -3,7 +3,6 @@ This module is for your data cleaning.
 It should be repeatable.
 If you are combining different data sources you might need a few different functions
 
-
 ## Data links:
 
 
@@ -15,15 +14,15 @@ import pandas as pd
 
 def support_function_one(example):
     """This one might read in the data from imdb and clean it"""
-    pass
+    return example
 
 def support_function_two(example):
     """This function might read in and clean a different data source"""
-    pass
+    return example
 
 def support_function_three(example):
     """This one might merge the above two sources and create a few new variables"""
-    pass
+    return example
 
 def full_clean():
     """

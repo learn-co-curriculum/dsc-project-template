@@ -13,12 +13,6 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-# System and Image manipulation packages
-import PIL
-from PIL import Image
-
-
-
 matplotlib_axes_logger.setLevel('ERROR')
 
 # Set specific parameters for the visualizations
@@ -73,14 +67,9 @@ def sample_plot_1():
 
     plt.title("Scatterplot of Midwest Area vs Population", fontsize=22)
     plt.legend(fontsize=12)
-    plt.savefig('./images_and_code/viz1.png', transparent = True)
+    plt.savefig('./images/viz1.png', transparent = True)
     
     plt.show()  
-    
-    # little resizing
-    im = Image.open("./images_and_code/viz1.png")
-    resized = im.resize((768,480), PIL.Image.ANTIALIAS)
-    resized.save('./images_and_code/viz1.png')
     
     pass
 
@@ -107,13 +96,8 @@ def sample_plot2():
     plt.title('Density Plot of City Mileage by n_Cylinders', fontsize=22)
     plt.gca().set(xlabel='Mileage per Gallon in the City', ylabel='Kernel Denisty')
     plt.legend()
-    plt.savefig('./images_and_code/viz2.png', transparent = True)
+    plt.savefig('./images/viz2.png', transparent = True)
     plt.show()
-    
-    # little resizing
-    im = Image.open("./images_and_code/viz2.png")
-    resized = im.resize((768,480), PIL.Image.ANTIALIAS)
-    resized.save('./images_and_code/viz2.png')
 
     pass
 
@@ -140,17 +124,5 @@ def visualization_one(target_var = None, input_vars= None, output_image_name=Non
     plt.legend()
 
     # exporting the image to the img folder
-    plt.savefig(f'images_and_code/{output_image_name}.png', transparent = True, figure = fig)
+    plt.savefig(f'images/{output_image_name}.png', transparent = True, figure = fig)
     return fig
-
-
-# please fully flesh out this function to meet same specifications of visualization one
-
-def visualization_two(output_image_name):
-    pass
-
-def visualization_three(output_image_name):
-    pass
-
-def visualization_four(output_image_name):
-    pass
