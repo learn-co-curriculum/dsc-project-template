@@ -44,9 +44,9 @@ More of your own text here
 
 
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
+Please review the narrative of our analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
 
-For any additional questions, please contact **email, email, email)
+For any additional questions, please contact **name & email, name & email**
 
 
 ##### Repository Structure:
