@@ -1,5 +1,4 @@
-# Title that recommends an action
-## Subtitle that describes the analysis 
+# Title
 
 **Authors**: Student1, StudentQ, Student_Other
 
@@ -41,19 +40,17 @@ For any additional questions, please contact **name & email, name & email**
 
 ## Repository Structure
 
-Here is where you would describe the structure of your repository and its contents, for exampe:
+Here is where you would describe the structure of your repository and its contents, for example:
 
 ```
-
-├── __init__.py                     <- .py file that signals to python these folders contain packages.
-├── README.md                       <- The top-level README for reviewers of this project.
-├── dsc-mod1-project-template.ipynb <- narrative documentation of analysis in jupyter notebook
-├── presentation.pdf                <- pdf version of project presentation
+├── __init__.py                         <- .py file that signals to python these folders contain packages
+├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-mod1-project-template.ipynb     <- Narrative documentation of analysis in jupyter notebook
+├── presentation.pdf                    <- PDF version of project presentation
 ├── code
-│   ├── __init__.py                     <- .py file that signals to python these folders contain packages.
+│   ├── __init__.py                     <- .py file that signals to python these folders contain packages
 │   ├── visualizations.py               <- .py script to create finalized versions of visuals for project
 │   └── data_cleaning.py                <- .py script used to pre-process and clean data
-└── images
-    └── images                          <- both sourced externally and generated from code
-
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
 ```
