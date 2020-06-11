@@ -2,13 +2,13 @@
 
 ![bluebrint2](images/blueprint.png)
 
-This repository is like a blueprint, providing sturcture for your first data science project. This will allow you to focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course.
+This repository is like a blueprint, providing structure for your first data science project. This will allow you to focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course.
 
 The template provided here is designed to help support your group collaboration and make your projects portfolio-ready. Employers will often review your GitHub projects, sometimes _before_ an interview, to judge the quality of your work. To set you up for success, we ask you to model your Module 1 project off of this repository. Your repositories for future projects will build on this foundation as you proceed through the course.
 
 ## Repository Contents
 
-- TEMPLATE_README: An example of a Readme for your project 
+- TEMPLATE_README: An example of a Readme for your project
   - This should be an brief overview of your whole project
 - `dsc-mod1-project-template.ipynb`: A starter Jupyter Notebook
   - Inside the notebook, there is some text and `| guiding questions within lined sections |` that you should answer in narrative form
@@ -38,7 +38,7 @@ The template provided here is designed to help support your group collaboration 
 5. If you are part of a group project (if not, proceed to step 6):
    - Go to the "Manage Access" tab within "Settings"
    - Add your project team members as collaborators
-   - Share the link to the repository with your teammates 
+   - Share the link to the repository with your teammates
 
 **All students should do the following steps**
 
@@ -63,4 +63,4 @@ The template provided here is designed to help support your group collaboration 
 ## Notes
 - The code within `visualizations.py` and `data_cleaning.py` are examples of well-documented code.
 - The visualizations in the notebook, generated from `visualizations.py`, use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting.
-- The `dsc-mod1-project-template.ipynb` is intented to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
+- The `dsc-mod1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
