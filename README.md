@@ -8,7 +8,7 @@ The template provided here is designed to help support your group collaboration 
 
 ## Repository Contents
 
-- TEMPLATE_README: An example of a Readme for your project
+- `TEMPLATE_README.md`: An example of a README for your project
   - This should be an brief overview of your whole project
 - `dsc-mod1-project-template.ipynb`: A starter Jupyter Notebook
   - Inside the notebook, there is some text and `| guiding questions within lined sections |` that you should answer in narrative form
@@ -17,12 +17,14 @@ The template provided here is designed to help support your group collaboration 
 - `SampleProjectSlides.PDF`: A starter slide deck
   - PDF of a sample slide deck to use for a presentation to your class or an employer
   - Here is an [online editable version](https://docs.google.com/presentation/d/1PnqhxdN1P1tY3MKCXKmShO0sYLRQF2DSMzMN_tnk5xo/edit?usp=sharing) of the presentation - instructions for using this are below.
-- code folder:
+- `code` folder:
   - `__init__.py`: Python helper file that tells Python that there are packages in the repository that can be imported
   - `data_cleaning.py`: Sample script to clean data and prepare it for analysis and visualization
   - `visualizations.py`: Sample script to produce visualizations
   - You may also find it helpful to have a Jupyter Notebook here for messy EDA or data preparation
-- images folder:
+- `data` folder:
+  - Contains data referenced in Jupyter Notebook code cells
+- `images` folder:
   - Contains images referenced in Jupyter Notebook markdown cells
 - `.gitignore` file that tells git to not track certain files and folders
 
