@@ -1,57 +1,47 @@
-# Titlle that recommends an action
-## Subtitle describing the analysis 
+# Title that recommends an action
+## Subtitle that describes the analysis 
 
 **Authors**: Student1, StudentQ, Student_Other
 
 The contents of this repository detail an analysis of the module one project. This analysis is detailed in hopes of making the work accessible and replicable.
 
-
-### Business problem:
+## Business Problem
 
 Here is where you state the business problem you were trying to solve
 
+## Data
 
-### Data
-Data can include source and high-level description (e.g. # obs)
-
+Here you can include your data source and high-level description (e.g. # obs). 
 
 ## Methods
-- descriptive analysis
-- choices made
-- key relevant findings from exploritory data analysis for mod 1, will be more involved in future mod
+
+Here you can describe the methods you used in this project. For Mod 1, this will be descriptive analysis. 
 
 ## Results
 
-### Here are examples of how to embed images from your sub-folder
+Here you can present your key results. For Mod 1, this will be findings from your descriptive analysis.
 
+Here are examples of how to embed images from your sub-folder
 
-#### Visual 1
+### Visual 1
 ![graph1](./images/viz1.png)
 
-#### Visual 2
-![graph1](./images/viz2.png)
-
-
-
-## Recommendations:
+## Recommendations
 
 More of your own text here
-
 
 ## Limitations & Next Steps
 
 More of your own text here
 
-
-### For further information
-Please review the narrative of our analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
+## For More Information
+Please review the narrative of our analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
+## Repository Structure
 
-##### Repository Structure:
-
-Here is where you would describe the structure of your repoistory and its contents, for exampe:
+Here is where you would describe the structure of your repository and its contents, for exampe:
 
 ```
 
@@ -67,5 +57,3 @@ Here is where you would describe the structure of your repoistory and its conten
     └── images                          <- both sourced externally and generated from code
 
 ```
-
-
