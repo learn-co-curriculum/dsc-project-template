@@ -1,14 +1,11 @@
-![austin animal shelter](https://esadoctors.com/wp-content/uploads/2019/10/austin-animal-center.jpg)
-
+![Austin animal shelter](https://esadoctors.com/wp-content/uploads/2019/10/austin-animal-center.jpg)
 
 For **questions about the analysis**, please submit an issue in this repository.
 
 # Animal Center Needs Analysis
 ### Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
 
-
-
-### Business problem:
+## Business Problem
 
 Austin, Texas is the largest No Kill community in the nation, and home to the Austin Animal Center. They provide shelter to more than 16,000 animals each year and animal protection and pet resource services to all of Austin and Travis County.
 
@@ -17,63 +14,53 @@ The Austin Animal Center _also_ has the longest running public dataset of animal
 - What animal needs a PR campaign?
 - What resources does the animal shelter need?
 
-### Data
-Data can include source and high-level description (e.g. # obs)
+## Business Problem
 
+Here you can state the business problem you were trying to solve.
+
+## Data
+
+Here you can include your data source and high-level description (e.g. # obs). 
 
 ## Methods
-- descriptive analysis
-- choices made
-- key relevant findings from exploritory data analysis for mod 1, will be more involved in future mod
+
+Here you can describe the methods you used in this project. For Mod 1, this will be descriptive analysis. 
 
 ## Results
 
+Here you can present your key results. For Mod 1, this will be findings from your descriptive analysis.
 
-#### Visual 1
-![graph1](./images_and_code/viz1.png)
+Here is an example of how to embed images from your sub-folder:
 
-#### Visual 2
-![graph1](./images_and_code/viz2.png)
+### Visual 1
+![graph1](./images/viz1.png)
 
+## Conclusions
 
+Here you can present the take-aways from your project, including recommendations for specific stakeholders.
 
-## Recommendations:
+## Next Steps
 
-More of your own text here
+Here you can discuss future improvement ideas for this project.
 
+## For More Information
 
-## Limitations & Next Steps
-
-More of your own text here
-
-
-### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
-
-For any additional questions, please contact **email, email, email)
-
+Please review the narrative of our analysis in [our Jupyter notebook](./animal_shelter_needs_analysis.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
 
 ![logo](https://s3.amazonaws.com/petfinder-us-east-1-petimages-prod/organization-photos/38395/38395-1.jpg?bust=2017-11-29+23%3A50%3A49)
-##### Repository Structure:
 
+## Repository Structure:
 
 ```
-├── code_folder
-│   ├── __pycache__
+├── __init__.py
+├── LICENSE.md
+├── README.md
+├── animal_shelter_needs_analysis.ipynb
+├── code
 │   ├── __init__.py
 │   ├── data_cleaning.py
 │   ├── feature_engineering.py
 │   └── visualizations.py
 ├── data
-│   └── README.md
-├── images
-│   ├── animals.png
-│   └── pet-resource-center-og.jpg
-├── LICENSE
-├── README.md
-├── TEMPLATE_README.md
-├── __init__.py
-└── animal_shelter_needs_analysis.ipynb
-
+└── images
 ```
-
