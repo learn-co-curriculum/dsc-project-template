@@ -5,22 +5,18 @@ For **questions about the analysis**, please submit an issue in this repository.
 # Animal Center Needs Analysis
 ### Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
 
-## Business Problem
-
-Austin, Texas is the largest No Kill community in the nation, and home to the Austin Animal Center. They provide shelter to more than 16,000 animals each year and animal protection and pet resource services to all of Austin and Travis County.
-
-The Austin Animal Center _also_ has the longest running public dataset of animal rescues in the country. Every animal has a unique id that ties to both their intake and outcome data when they enter and leave the shelter. Given their data, my questions of interest were:
-
-- What animal needs a PR campaign?
-- What resources does the animal shelter need?
+Austin, Texas is committed to serving the needs of animals in the city, operating as the largest [No Kill community](https://bestfriends.org/2025-goal/what-no-kill-really-means) in the nation. The Austin Animal Center is central to this effort, sheltering more than 16,000 animals each year, offering animal protection, and providing pet resource services to all of Austin and Travis County.
 
 ## Business Problem
 
-Here you can state the business problem you were trying to solve.
+This project aims to improve the operational efficiency of the Austin Animal Center in two ways.
+
+- Identify animals that are likely to have extended stays and would benefit a PR campaign to promote adoption.
+- Identify seasonal resource needs to better plan, purchase and hire. 
 
 ## Data
 
-Here you can include your data source and high-level description (e.g. # obs). 
+The Austin Animal Center has the longest running public dataset of animal rescues in the country. Every animal has a unique id that ties to both their intake and outcome data when they enter and leave the shelter.
 
 ## Methods
 
