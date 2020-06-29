@@ -16,7 +16,7 @@ The template provided here is designed to help support your group collaboration 
 - `__init__.py`: Python helper file that tells Python that there are packages in the repository that can be imported
 - `SampleProjectSlides.PDF`: A starter slide deck
   - PDF of a sample slide deck to use for a presentation to your class or an employer
-  - Here is an [online editable version](https://docs.google.com/presentation/d/1PnqhxdN1P1tY3MKCXKmShO0sYLRQF2DSMzMN_tnk5xo/edit?usp=sharing) of the presentation - instructions for using this are below.
+  - Here is an [online editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) of the presentation - instructions for using this are below.
 - `code` folder:
   - `__init__.py`: Python helper file that tells Python that there are packages in the repository that can be imported
   - `data_cleaning.py`: Sample script to clean data and prepare it for analysis and visualization
@@ -36,7 +36,8 @@ The template provided here is designed to help support your group collaboration 
 1. Through GitHub, fork this repository to your personal account.
 2. In GitHub, click "Settings" on the forked repo.
 3. On the Setting page, the first tab is "Options". On that page there  "Repository Name" with a text field, and a button "Rename"
-4. Change the name of the forked repo to a _descriptive_ name of your choosing. "Microsoft-Movie-Analysis" is a **better** repo name than "Mod-Project-1." Remember that your employer will read this name to understand what your project is about.
+4. Change the name of the forked repo to a _descriptive_ name of your choosing.
+   - "Microsoft-Movie-Analysis" is a **better** repo name than "Mod-Project-1." Remember that your employer will read this name to understand what your project is about.
 5. If you are part of a group project (if not, proceed to step 6):
    - Go to the "Manage Access" tab within "Settings"
    - Add your project team members as collaborators
@@ -50,14 +51,14 @@ The template provided here is designed to help support your group collaboration 
 
 **To use the slide template**
 
-1. Go to [this link](https://docs.google.com/presentation/d/1eYnFN5ojOD7RNXDv9dj-ZBwrASru0pnlnwTg3NVXdoU/copy) to make an editable copy of the slide deck in your own account.
+1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own account.
 2. If you are part of a group project, click the "Share" button and add your teammates as editors.
 3. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's.
 
 ***
 ## Instructions for How to Finish
 1. Change the file name of the Jupyter Notebook (`dsc-mod1-project-template.ipynb`) to something more descriptive.
-2. Delete `SampleProjectSlides.PDF` and save an appropriately-named PDF version of your Google Slides to the repository.
+2. Delete `DS Project Presentation Template.PDF` and save an appropriately-named PDF version of your Google Slides to the repository.
 3. Delete **this** readme from the repo using `git rm README.md`
 4. Rename the template readme to make it the readme for this repository using `git mv TEMPLATE_README.md README.md`.
 
