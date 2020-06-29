@@ -1,6 +1,6 @@
 # Module 1 Project Template - Above and Beyond
 
-![bluebrint2](images/blueprint.png)
+![blueprint2](images/blueprint.png)
 
 This repository is like a blueprint, providing structure for your first data science project. This will allow you to focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course.
 
@@ -9,7 +9,7 @@ The template provided here is designed to help support your group collaboration 
 ## Repository Contents
 
 - `TEMPLATE_README.md`: An example of a README for your project
-  - This should be an brief overview of your whole project
+  - This is a brief overview of your whole project
 - `dsc-mod1-project-template.ipynb`: A starter Jupyter Notebook
   - Inside the notebook, there is some text and `| guiding questions within lined sections |` that you should answer in narrative form
   - Includes sample visualizations - the code to create them is in the `visualizations.py` file
@@ -50,16 +50,16 @@ The template provided here is designed to help support your group collaboration 
 
 **To use the slide template**
 
-1. Go to [this link](https://docs.google.com/presentation/d/1eYnFN5ojOD7RNXDv9dj-ZBwrASru0pnlnwTg3NVXdoU/edit?usp=sharing) - it will appear as "View Only."
-2. Go to "File," select "Make a Copy," and give it a descriptive name - Google will then create an **editable** copy of the slide deck in your own account.
-3. If you are part of a group project, click the "Share" button and add your teammates as editors.
-4. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's.
+1. Go to [this link](https://docs.google.com/presentation/d/1eYnFN5ojOD7RNXDv9dj-ZBwrASru0pnlnwTg3NVXdoU/copy) to make an editable copy of the slide deck in your own account.
+2. If you are part of a group project, click the "Share" button and add your teammates as editors.
+3. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's.
 
 ***
 ## Instructions for How to Finish
 1. Change the file name of the Jupyter Notebook (`dsc-mod1-project-template.ipynb`) to something more descriptive.
 2. Delete `SampleProjectSlides.PDF` and save an appropriately-named PDF version of your Google Slides to the repository.
-3. Delete **this** readme from the repo using `git rm README.md`, followed by `git mv TEMPLATE_README.md README.md`.
+3. Delete **this** readme from the repo using `git rm README.md`
+4. Rename the template readme to make it the readme for this repository using `git mv TEMPLATE_README.md README.md`.
 
 ***
 ## Notes
