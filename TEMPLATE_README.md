@@ -2,6 +2,8 @@
 
 **Authors**: Student1, StudentQ, Student_Other
 
+## Overview
+
 Here you can provide a brief summary of the project contained in this repository.
 
 ## Business Problem
@@ -27,15 +29,11 @@ Here is an example of how to embed images from your sub-folder:
 
 ## Conclusions
 
-Here you can present the take-aways from your project, including recommendations for specific stakeholders.
-
-## Next Steps
-
-Here you can discuss future improvement ideas for this project.
+Here you can present the take-aways from your project, including recommendations for specific stakeholders and future improvement ideas.
 
 ## For More Information
 
-Please review the narrative of our analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf).
+Please review the narrative of our analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or our [presentation](./DS Project Presentation Template.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
