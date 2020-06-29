@@ -33,7 +33,7 @@ Here you can present the take-aways from your project, including recommendations
 
 ## For More Information
 
-Please review the narrative of our analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or our [presentation](./DS Project Presentation Template.pdf).
+Please review the narrative of our analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or our [presentation](./DS_Project_Presentation_Template.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
@@ -44,7 +44,7 @@ Here is where you would describe the structure of your repository and its conten
 ```
 ├── __init__.py                         <- .py file that signals to python these folders contain packages
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-mod1-project-template.ipynb     <- Narrative documentation of analysis in jupyter notebook
+├── dsc-mod1-project-template.ipynb     <- Narrative documentation of analysis in Jupyter notebook
 ├── presentation.pdf                    <- PDF version of project presentation
 ├── code
 │   ├── __init__.py                     <- .py file that signals to python these folders contain packages
