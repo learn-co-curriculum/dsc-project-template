@@ -14,7 +14,7 @@ The template provided here is designed to help support your group collaboration 
   - Inside the notebook, there is some text and `| guiding questions within lined sections |` that you should answer in narrative form
   - Includes sample visualizations - the code to create them is in the `visualizations.py` file
 - `__init__.py`: Python helper file that tells Python that there are packages in the repository that can be imported
-- `SampleProjectSlides.PDF`: A starter slide deck
+- `DS_Project_Presentation_Template.pdf`: A starter slide deck
   - PDF of a sample slide deck to use for a presentation to your class or an employer
   - Here is an [online editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) of the presentation - instructions for using this are below.
 - `code` folder:
@@ -58,7 +58,7 @@ The template provided here is designed to help support your group collaboration 
 ***
 ## Instructions for How to Finish
 1. Change the file name of the Jupyter Notebook (`dsc-mod1-project-template.ipynb`) to something more descriptive.
-2. Delete `DS Project Presentation Template.PDF` and save an appropriately-named PDF version of your Google Slides to the repository.
+2. Delete `DS_Project_Presentation_Template.pdf` and save an appropriately-named PDF version of your Google Slides to the repository.
 3. Delete **this** readme from the repo using `git rm README.md`
 4. Rename the template readme to make it the readme for this repository using `git mv TEMPLATE_README.md README.md`.
 
