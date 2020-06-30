@@ -1,7 +1,5 @@
 ![Austin animal shelter](https://esadoctors.com/wp-content/uploads/2019/10/austin-animal-center.jpg)
 
-For **questions about the analysis**, please submit an issue in this repository.
-
 # Animal Center Needs Analysis
 ### Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
 
