@@ -5,14 +5,18 @@ For **questions about the analysis**, please submit an issue in this repository.
 # Animal Center Needs Analysis
 ### Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
 
-Austin, Texas is committed to serving the needs of animals in the city, operating as the largest [No Kill community](https://bestfriends.org/2025-goal/what-no-kill-really-means) in the nation. The Austin Animal Center is central to this effort, sheltering more than 16,000 animals each year, offering animal protection, and providing pet resource services to all of Austin and Travis County.
+## Overview
+
+This project provides recommendations to improve operations at the Austin Animal Center based on descriptive analyses of data on animal intakes and outcomes. We find that animal intake follows a seasonal pattern that Austin Animal Center can use to plan for staffing and resource needs. We further find that certain animals take longer to find new homes, providing opportunities for Austin Animal Center to save on boarding costs by providing more outreach to place these animals faster.
 
 ## Business Problem
 
+Austin, Texas is committed to serving the needs of animals in the city, operating as the largest [No Kill community](https://bestfriends.org/2025-goal/what-no-kill-really-means) in the nation. The Austin Animal Center is central to this effort, sheltering more than 16,000 animals each year, offering animal protection, and providing pet resource services to all of Austin and Travis County.
+
 This project aims to improve the operational efficiency of the Austin Animal Center in two ways.
 
-- Identify animals that are likely to have extended stays and would benefit a PR campaign to promote adoption.
 - Identify seasonal resource needs to better plan, purchase and hire. 
+- Identify animals that are likely to have extended stays and would benefit a PR campaign to promote adoption.
 
 ## Data
 
