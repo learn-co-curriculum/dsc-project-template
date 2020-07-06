@@ -3,6 +3,7 @@ This package of functions takes the output from the data_cleaning.py package as 
 It assumes those funtions have been run on Austin Animal Center datasets.
 
 This package includes the following functions:
+- calc_stay_length
 - create_species_var
 - create_neutered_var
 - reduce_breed_list
@@ -11,7 +12,16 @@ This package includes the following functions:
 import pandas as pd
 import numpy as np
 
-
+##### Create new variable days_in_shelter #####
+def calc_stay_length(test):
+    """
+    The function calc_stay_length takes a cleaned, merged, dataset as an argument
+    returns dataset with a new variable "days_in_shelter" that provides the number
+    of days an animal was housed at the shelter.
+    """    
+    test['days_in_shelter'] = (test['date_o'] - test['date_i']).dt.days
+    return test
+    
 ##### Create new variable SPECIES ##### 
 def create_species_var(test):
     """

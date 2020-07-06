@@ -93,9 +93,6 @@ def merge_files(intakes, outcomes):
     # Filters out animals who have yet to have outcomes and keeps animals where outcome data is later than intake date
     animal_shelter_df = animal_shelter_df[(~animal_shelter_df['date_o'].isna()) 
                                           & (animal_shelter_df['date_o'] > animal_shelter_df['date_i'])]
-
-    # Creates new days_in_shelter variable
-    animal_shelter_df['days_in_shelter'] = (animal_shelter_df['date_o'] - animal_shelter_df['date_i']).dt.days
     
     # Sorts the column names to be alphabetical
     animal_shelter_df = animal_shelter_df[animal_shelter_df.columns.sort_values()]
