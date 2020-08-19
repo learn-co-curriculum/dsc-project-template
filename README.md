@@ -1,4 +1,4 @@
-# Phase 1 Project Template - Above and Beyond
+# Phase 1 Project Template - Above and Beyond (AAB)
 
 ![blueprint2](images/blueprint.png)
 
@@ -8,7 +8,7 @@ The template provided here is designed to help support your group collaboration 
 
 ## Repository Contents
 
-- `README.md`: The README for this repo branch explaining it's contents
+- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
    - This does not belong in your project - instructions for deleting it are below
 - `TEMPLATE_README.md`: An example of a README for your project
   - This is a brief overview of your whole project
