@@ -8,7 +8,7 @@ A one-paragraph overview of the project, including the business problem, data, m
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer to solve them.
+Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
 
 ***
 Questions to consider:
@@ -41,7 +41,7 @@ Questions to consider:
 
 ## Results
 
-Present your key results. For Mod 1, this will be findings from your descriptive analysis.
+Present your key results. For Phase 1, this will be findings from your descriptive analysis.
 
 ***
 Questions to consider:
@@ -67,19 +67,19 @@ Questions to consider:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation_Template.pdf).
+Please review our full analysis in [our Jupyter notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
 ## Repository Structure
 
-Here is where you would describe the structure of your repository and its contents, for example:
+Describe the structure of your repository and its contents, for example:
 
 ```
 ├── __init__.py                         <- .py file that signals to python these folders contain packages
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb     <- Narrative documentation of analysis in Jupyter notebook
-├── presentation.pdf                    <- PDF version of project presentation
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
 ├── code
 │   ├── __init__.py                     <- .py file that signals to python these folders contain packages
 │   ├── visualizations.py               <- .py script to create finalized versions of visuals for project
