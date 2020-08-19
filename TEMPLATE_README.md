@@ -31,7 +31,7 @@ Questions to consider:
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Mod 1, this will be descriptive analysis. 
+Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
 
 ***
 Questions to consider:
@@ -67,7 +67,7 @@ Questions to consider:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter notebook](./dsc-mod1-project-template.ipynb) or our [presentation](./DS_Project_Presentation_Template.pdf).
+Please review our full analysis in [our Jupyter notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation_Template.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
@@ -78,7 +78,7 @@ Here is where you would describe the structure of your repository and its conten
 ```
 ├── __init__.py                         <- .py file that signals to python these folders contain packages
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-mod1-project-template.ipynb     <- Narrative documentation of analysis in Jupyter notebook
+├── dsc-phase1-project-template.ipynb     <- Narrative documentation of analysis in Jupyter notebook
 ├── presentation.pdf                    <- PDF version of project presentation
 ├── code
 │   ├── __init__.py                     <- .py file that signals to python these folders contain packages

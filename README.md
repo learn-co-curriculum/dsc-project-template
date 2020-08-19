@@ -1,10 +1,10 @@
-# Module 1 Project Template - Above and Beyond
+# Phase 1 Project Template - Above and Beyond
 
 ![blueprint2](images/blueprint.png)
 
 This repository is like a blueprint, providing structure for your first data science project. This will allow you to focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course.
 
-The template provided here is designed to help support your group collaboration and make your projects portfolio-ready. Employers will often review your GitHub projects, sometimes _before_ an interview, to judge the quality of your work. To set you up for success, we ask you to model your Module 1 project off of this repository. Your repositories for future projects will build on this foundation as you proceed through the course.
+The template provided here is designed to help support your group collaboration and make your projects portfolio-ready. Employers will often review your GitHub projects, sometimes _before_ an interview, to judge the quality of your work. To set you up for success, we ask you to model your Phase 1 project off of this repository. Your repositories for future projects will build on this foundation as you proceed through the course.
 
 ## Repository Contents
 
@@ -12,7 +12,7 @@ The template provided here is designed to help support your group collaboration 
    - This does not belong in your project - instructions for deleting it are below
 - `TEMPLATE_README.md`: An example of a README for your project
   - This is a brief overview of your whole project
-- `dsc-mod1-project-template.ipynb`: A starter Jupyter Notebook
+- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook
   - Inside the notebook, there is some text and `| guiding questions within lined sections |` that you should answer in narrative form
   - Includes sample visualizations - the code to create them is in the `visualizations.py` file
 - `__init__.py`: Python helper file that tells Python that there are packages in the repository that can be imported
@@ -39,7 +39,7 @@ The template provided here is designed to help support your group collaboration 
 2. In GitHub, click "Settings" on the forked repo.
 3. On the Setting page, the first tab is "Options". On that page there  "Repository Name" with a text field, and a button "Rename"
 4. Change the name of the forked repo to a _descriptive_ name of your choosing.
-   - "Microsoft-Movie-Analysis" is a **better** repo name than "Mod-Project-1." Remember that your employer will read this name to understand what your project is about.
+   - "Microsoft-Movie-Analysis" is a **better** repo name than "Project-1." Remember that your employer will read this name to understand what your project is about.
 5. If you are part of a group project (if not, proceed to step 6):
    - Go to the "Manage Access" tab within "Settings"
    - Add your project team members as collaborators
@@ -59,13 +59,14 @@ The template provided here is designed to help support your group collaboration 
 
 ***
 ## Instructions for How to Finish
-1. Change the file name of the Jupyter Notebook (`dsc-mod1-project-template.ipynb`) to something more descriptive.
+1. Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive.
 2. Delete `DS_Project_Presentation_Template.pdf` and save an appropriately-named PDF version of your Google Slides to the repository.
 3. Delete **this** readme from the repo using `git rm README.md`
 4. Rename the template readme to make it the readme for this repository using `git mv TEMPLATE_README.md README.md`.
 
 ***
 ## Notes
+
 - The code within `visualizations.py` and `data_cleaning.py` are examples of well-documented code.
 - The visualizations in the notebook, generated from `visualizations.py`, use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting.
-- The `dsc-mod1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
+- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
