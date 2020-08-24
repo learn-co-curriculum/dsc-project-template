@@ -13,7 +13,7 @@ The template provided here is designed to help support your group collaboration 
 - `TEMPLATE_README.md`: An example of a README for your project
   - This is a brief overview of your whole project
 - `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook
-  - Inside the notebook, there is some text and `| guiding questions within lined sections |` that you should answer in narrative form
+  - Inside the notebook, there is some text and guiding questions that you should answer in narrative form
 - `DS_Project_Presentation_Template.pdf`: A starter slide deck
   - PDF of a sample slide deck to use for a presentation to your class or an employer
   - Here is an [online editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) of the presentation - instructions for using this are below.
