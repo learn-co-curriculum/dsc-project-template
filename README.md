@@ -1,6 +1,6 @@
 # Phase 1 Project Template - Minimum Viable Product (MVP)
 
-![bluebrint2](images/blueprint.png)
+![blueprint](images/blueprint.png)
 
 This repository is like a blueprint, providing structure for your first major data science project. This will allow you to focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course.
 
@@ -8,22 +8,19 @@ The template provided here is designed to help make your projects portfolio-read
 
 ## Repository Contents
 
+Below is a list of the contents of this repository - instructions for using them are in the next section.
+
 - `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a README for your project
-  - This is a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook
-  - Inside the notebook, there is some text and guiding questions that you should answer in narrative form
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck
-  - Here is an [online editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) of the presentation
-- `data` folder:
-  - Contains data referenced in Jupyter Notebook code cells
-- `images` folder:
-  - Contains images referenced in other files
-- `.gitignore` file that tells git to not track certain files and folders
+- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
+- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
+- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
+- `data` folder: A folder for the data you reference with your code
+- `images` folder: A folder for the images you reference in your files 
+- `.gitignore`: A hidden file that tells git to not track certain files and folders
 
-## Instructions
+## Instructions For Using This Repository
 
-### Forking This Repository
+### Fork This Repository
 
 **For a group project**, have only one team member do these steps:
 
@@ -42,19 +39,19 @@ The template provided here is designed to help make your projects portfolio-read
    - In GitHub, go to the forked repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
    - Add your project team members as collaborators & share the link to the repository
 
-### Working In Your Forked Repo
+### Work In Your Forked Repo
 
 - Work in the clone of the forked repo that lives on your local machine, and commit your work to GitHub often
 - Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
 - Fill in the README template in `TEMPLATE_README.md`
 
-### Using The Slide Template
+### Use The Slide Template
 
 1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
 2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
 3. **For a group project**, click the "Share" button and add your teammates as editors
 
-### Cleaning Up Your Project
+### Tidy Up Your Project
 
 1. Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
 
@@ -67,9 +64,9 @@ The template provided here is designed to help make your projects portfolio-read
   
 4. Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
 
-### Submitting Your Project
+### Submit Your Project
 
-To submit your project, please follow the instructions in the "Project Requirements & Submission" page in the Milestones course.
+To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
 
 ***
 ### Notes
