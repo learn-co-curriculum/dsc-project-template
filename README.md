@@ -9,7 +9,7 @@ This version of the repository template builds upon the MVP version. It incorpor
 - `TEMPLATE_README.md`: An example of a README for your project
   - This is a brief overview of your whole project
 - `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook
-  - Inside the notebook, there is some text and `| guiding questions within lined sections |` that you should answer in narrative form
+  - Inside the notebook, there is some text and guiding questions within lined sections that you should answer in narrative form
   - Includes sample visualizations - the code to create them is in the `visualizations.py` file
 - `__init__.py`: Python helper file that tells Python that there are packages in the repository that can be imported
 - `DS_Project_Presentation_Template.pdf`: A starter slide deck
