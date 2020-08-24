@@ -1,7 +1,5 @@
 # Phase 1 Project Template - Above and Beyond (AAB)
 
-![blueprint2](images/blueprint.png)
-
 This version of the repository template builds upon the MVP version. It incorporates best practices for project organization and code modularization.
 
 ## Repository Contents
@@ -32,4 +30,3 @@ This version of the repository template builds upon the MVP version. It incorpor
 ## Notes
 
 - The code within `visualizations.py` and `data_cleaning.py` are examples of well-documented code.
-- The visualizations in the notebook, generated from `visualizations.py`, use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting.
