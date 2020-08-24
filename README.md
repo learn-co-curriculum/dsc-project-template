@@ -57,12 +57,12 @@ Below is a list of the contents of this repository - instructions for using them
 
 2. Save an appropriately-named PDF version of your slide deck to the repository
 
-3. Delete unnecessary files from the repo using `git rm`
+3. Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
+
+4. Delete unnecessary files from the repo using `git rm`
   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
   - This README file: `README.md`
   - Any unused images in the `images` folder
-  
-4. Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
 
 ### Submit Your Project
 
