@@ -4,7 +4,7 @@ This version of the repository template builds upon the MVP version. It incorpor
 
 ## Repository Contents
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+Below is a list of the contents of this repository.
 
 - `README.md`: The README for this repo branch explaining it's contents - you're reading it now
 - `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
@@ -19,7 +19,12 @@ Below is a list of the contents of this repository - instructions for using them
   - `visualizations.py`: Code to produce visualizations
 - `.gitignore`: A hidden file that tells git to not track certain files and folders
 
-***
+## Code Modularization
+
+The main difference between this AAB version and the MVP version is modularization of code. Code for data preparation and visualization is placed in separate .py files that are then imported into the Jupyter Notebook. This allows your Jupyter Notebook to be much easier for a third party to run and make sense of. Modularizing code is a key programming skill that makes it easy to maintain, upgrade, and deploy your projects. Doing this will not only make it easier for you to work on your projects, but it will also show potential employers that you value accessibility and usability.
+
+Note that you must include the `__init__.py` files in the root directory and subfolders containing any code that you wish to import.
+
 ## Notes
 
 - The code within `visualizations.py` and `data_cleaning.py` are examples of well-documented code.
