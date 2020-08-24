@@ -29,7 +29,7 @@ Below is a list of the contents of this repository - instructions for using them
    
 2. Change the name of the forked repo to a _descriptive_ name of your choosing
    - In GitHub, go to the forked repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Potential employers will read this name to learn about your project, so make it descriptive. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
 
 3. Use `git clone` to clone both the Phase 1 Project repo and your fork of this repo to your local computer
 
@@ -53,16 +53,13 @@ Below is a list of the contents of this repository - instructions for using them
 
 ### Tidy Up Your Project
 
-1. Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-
-2. Save an appropriately-named PDF version of your slide deck to the repository
-
-3. Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-
-4. Delete unnecessary files from the repo using `git rm`
-  - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-  - This README file: `README.md`
-  - Any unused images in the `images` folder
+- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
+- Save an appropriately-named PDF version of your slide deck to the repository
+- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
+- Delete unnecessary files from the repo using `git rm`
+   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
+   - This README file: `README.md`
+   - Any unused images in the `images` folder
 
 ### Submit Your Project
 
