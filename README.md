@@ -21,7 +21,7 @@ Below is a list of the contents of this repository.
 
 ## Code Modularization
 
-The main difference between this AAB version and the MVP version is modularization of code. Code for data preparation and visualization is placed in separate .py files that are then imported into the Jupyter Notebook. This allows your Jupyter Notebook to be much easier for a third party to run and interpret. Modularizing code is a key programming skill that makes it easy to maintain, upgrade, and deploy your projects. Doing this will not only make it easier for you to work on your projects, but it will also show potential employers that you value usability in your code.
+The main difference between this AAB version and the MVP version is modularization of code. Code for data preparation and visualization is placed in separate .py files that are then imported into the Jupyter Notebook. This allows your Jupyter Notebook to be much easier for a third party to run and interpret, without having to weed through all the messy details. Modularizing code is a key programming skill that makes it easy to maintain, upgrade, and deploy your projects. Doing this will not only make it easier for you to work on your projects, but it will also show potential employers that you value usability in your code.
 
 Note that you must include the `__init__.py` files in the root directory and subfolders containing any code that you wish to import.
 
