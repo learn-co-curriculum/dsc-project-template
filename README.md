@@ -2,9 +2,7 @@
 
 ![blueprint](images/blueprint.png)
 
-This repository is like a blueprint, providing structure for your first major data science project. This will allow you to focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course.
-
-The template provided here is designed to help make your projects portfolio-ready. Employers will often review your GitHub projects, sometimes _before_ an interview, to judge the quality of your work. To set you up for success, we ask you to model your Phase 1 project off of this repository. Your repositories for future projects will build on this foundation as you proceed through the course.
+This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
 
 ## Repository Contents
 
