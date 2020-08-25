@@ -33,9 +33,7 @@ Below is a list of the contents of this repository - instructions for using them
 
 3. Use `git clone` to clone both the Phase 1 Project repo and your fork of this repo to your local computer
 
-4. Copy the data from the Phase 1 Project repo into the `data` folder for your fork of this repo
-
-5. **For a group project**, add team members as collaborators to the forked repo:
+4. **For a group project**, add team members as collaborators to the forked repo:
    - In GitHub, go to the forked repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
    - Add your project team members as collaborators & share the link to the repository
 
