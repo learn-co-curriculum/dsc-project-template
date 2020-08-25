@@ -43,7 +43,7 @@ Below is a list of the contents of this repository - instructions for using them
 - Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
 - Fill in the README template in `TEMPLATE_README.md`
 - Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on why and how to do this, review Topic 2: Bash and Git
+   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
 
 ### Use The Slide Template
 
