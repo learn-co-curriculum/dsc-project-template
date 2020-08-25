@@ -27,15 +27,15 @@ Below is a list of the contents of this repository - instructions for using them
 1. Fork this repository to your personal account
    - In GitHub, go to this repository and click the "Fork" button in the upper right
    
-2. Change the name of the forked repo to a _descriptive_ name of your choosing
-   - In GitHub, go to the forked repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
+2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
+   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
    - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
 
-3. Use `git clone` to clone both the Phase 1 Project repo and your fork of this repo to your local computer
+3. Use `git clone` to clone your fork of this repo to your local computer
 
-4. **For a group project**, add team members as collaborators to the forked repo:
-   - In GitHub, go to the forked repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & share the link to the repository
+4. **For a group project**, add team members as collaborators to your fork of this repo
+   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
+   - Add your project team members as collaborators & send them the repo GitHub URL
 
 ### Work In Your Forked Repo
 
@@ -57,6 +57,7 @@ Below is a list of the contents of this repository - instructions for using them
 - Delete unnecessary files from the repo using `git rm`
    - The presentation PDF: `DS_Project_Presentation_Template.pdf`
    - This README file: `README.md`
+   - Any unused data files in the `data` folder
    - Any unused images in the `images` folder
 
 ### Submit Your Project
@@ -66,5 +67,5 @@ To submit your project, please follow the instructions in the "Project Submissio
 ***
 ### Notes
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting.
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
+- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
+- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
