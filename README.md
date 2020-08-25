@@ -37,11 +37,13 @@ Below is a list of the contents of this repository - instructions for using them
    - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
    - Add your project team members as collaborators & send them the repo GitHub URL
 
-### Work In Your Forked Repo
+### Work In Your Fork Of This Repository
 
-- Work in the clone of the forked repo that lives on your local machine, and commit your work to GitHub often
+- Work in the repo clone that you created on your local machine
 - Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
 - Fill in the README template in `TEMPLATE_README.md`
+- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
+   - For a refresher, revisit Topic 2: Bash and Git
 
 ### Use The Slide Template
 
