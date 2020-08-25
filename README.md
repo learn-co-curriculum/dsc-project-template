@@ -6,9 +6,7 @@ For **questions about the analysis**, please submit an issue in this repository.
 # Animal Center Needs Analysis
 ### Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
 
-
-
-### Business problem:
+## Business Problem
 
 Austin, Texas is the largest No Kill community in the nation, and home to the Austin Animal Center. They provide shelter to more than 16,000 animals each year and animal protection and pet resource services to all of Austin and Travis County.
 
@@ -28,32 +26,23 @@ Data can include source and high-level description (e.g. # obs)
 
 ## Results
 
-
-#### Visual 1
+### Visual 1
 ![graph1](./images_and_code/viz1.png)
 
-#### Visual 2
+### Visual 2
 ![graph1](./images_and_code/viz2.png)
 
-
-
-## Recommendations:
+## Conclusions
 
 More of your own text here
 
-
-## Limitations & Next Steps
-
-More of your own text here
-
-
-### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
+### For More Iinformation
+Please review the narrative of our analysis in [our Jupyter Notebook](./dsc-mod1-project-template.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
 
 For any additional questions, please contact **email, email, email)
 
-
 ![logo](https://s3.amazonaws.com/petfinder-us-east-1-petimages-prod/organization-photos/38395/38395-1.jpg?bust=2017-11-29+23%3A50%3A49)
+
 ##### Repository Structure:
 
 
