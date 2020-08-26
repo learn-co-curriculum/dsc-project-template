@@ -2,7 +2,8 @@
 
 
 # Austin Animal Center Needs Analysis
-### Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
+
+**Author**: Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
 
 ## Business Problem
 
