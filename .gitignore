@@ -1,3 +1,36 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@DavidBraslow 
+learn-co-curriculum
+/
+dsc-project-template
+28
+0
+1
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+dsc-project-template/.gitignore
+@aapeebles
+aapeebles update code to resize images
+Latest commit 9514860 on Apr 9
+ History
+ 1 contributor
+142 lines (116 sloc)  2.06 KB
+  
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -140,3 +173,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
