@@ -1,6 +1,6 @@
 # Title
 
-**Authors**: Student1, StudentQ, Student_Other
+**Authors**: Student1, Student2
 
 ## Overview
 
