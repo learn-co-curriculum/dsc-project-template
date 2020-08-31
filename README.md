@@ -2,7 +2,7 @@
 
 # Austin Animal Center Needs Analysis
 
-**Author**: [Alison Peebles Madigan](mailto:alison.peeblesmadigan@flatironschool.com)
+**Author**: <a href="mailto:alison.peeblesmadigan@flatironschool.com">Alison Peebles Madigan</a>
 
 ## Business Problem
 
