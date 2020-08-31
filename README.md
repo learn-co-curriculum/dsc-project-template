@@ -4,9 +4,43 @@
 
 **Author**: [Alison Peebles Madigan](mailto:alison.peeblesmadigan@flatironschool.com)
 
+## Overview
+
+This project analyzes the resource needs of the [Austin Animal Center](https://www.austintexas.gov/department/aac) (AAC), which shelters 16,000 animals annually with a [No Kill policy](https://www.austintexas.gov/blog/no-kill-austin). Descriptive analysis of animal intake and outcome data shows that some animals require extended stays and that the number of sheltered animals varies seasonally. The Austin Animal Center can use this analysis to adjust outreach, hiring, and space utilization to improve resource allocation.
+
 ## Business Problem
 
-This README file is under construction.
+![img](./images/animals.png)
+
+The Austin Animal Shelter may be able to improve their resource allocation to both reduce costs and ensure that the center has staff and space to care for the animals brought to them. Doing so will allow the Austin Animal Shelter to better serve its clients while also freeing up resources to expand the scope of services they can offer.
+
+## Data
+
+The Austin Animal Center has the longest running public dataset of animal rescues in the country. Every animal has a unique ID associated with both their [intake](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm) and [outcome](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Outcomes/9t4d-g238) data. The data files provide the dates and types of each event, as well as other animal characteristics (e.g. type, sex).
+
+## Methods
+
+This project uses descriptive analysis, including analysis of trends over time. This provides a useful overview of AAC's typical intakes and outcomes to describe potential resource needs.
+
+## Results
+
+
+
+## Conclusions
+
+This analysis leads to three recommendations for improving operations of the Austin Animal Center:
+
+- **Reduce current spending until the numbers of intakes and sheltered animals return to normal.** Given the reduced activity during this period, AAC should consider ways to temporarily reduce costs by changing space utilization or staffing.
+- **Engage in targeted outreach campaigns for dogs that have been sheltered at AAC for more than 30 days.** While most dogs will have been placed after 30 days, this may help reduce the number of dogs that end up having extended stays, potentially requiring many more months of care.
+- **Hire seasonal staff and rent temporary space for May through December.** To accomodate the high volume of intakes and number of sheltered animals in the spring and fall, AAC should leverage seasonal resources, rather than full-year ones. THis will allow AAC to cut back on expenditures during the months when there is lower
+
+### Next Steps
+
+Further analyses could yield additional insights to further improve operations at AAC:
+
+- **Better prediction of animals that are likely to have long stays.** This modeling could use already available data, such as breed and intake condition.
+- **Model need for medical support.** This modeling could predict the need for specialized personnel to address animals' medical needs, including neutering, using intake condition and sex data.
+- **Predicting undesirable outcomes.** This modeling could identify animals that are more likely to have undesirable outcomes (e.g. Euthanasia) for targeted medical support or outreach.
 
 ## For More Information
 
