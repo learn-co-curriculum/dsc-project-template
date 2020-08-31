@@ -1,9 +1,8 @@
 ![austin animal center](./images/austin-animal-center.jpg)
 
-
 # Austin Animal Center Needs Analysis
 
-**Author**: Alison Peebles Madigan, alison.peeblesmadigan@flatironschool.com
+**Author**: [Alison Peebles Madigan](mailto:alison.peeblesmadigan@flatironschool.com)
 
 ## Business Problem
 
@@ -53,4 +52,3 @@ For additional info, contact Alison Peebles Madigan at alison.peeblesmadigan@fla
 ├── Animal_Shelter_Needs_Presentation.pdf
 └── animal_shelter_needs_analysis.ipynb
 ```
-
