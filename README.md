@@ -20,11 +20,11 @@ The Austin Animal Center has the longest running public dataset of animal rescue
 
 ## Methods
 
-This project uses descriptive analysis, including analysis of trends over time. This provides a useful overview of AAC's typical intakes and outcomes to describe potential resource needs.
+This project uses descriptive analysis, including description of trends over time. This provides a useful overview of AAC's typical intakes and outcomes to identify resource needs.
 
 ## Results
 
-
+_Under Construction_
 
 ## Conclusions
 
