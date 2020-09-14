@@ -26,11 +26,11 @@ This project uses descriptive analysis, including description of trends over tim
 
 Most animals have short stays at AAC (under 15 days) but some have long stays (over 180 days), and most of these are dogs.
 
-![stay_lengths_by_type](stay_lengths_by_type.png)
+![stay_lengths_by_type](./images/stay_lengths_by_type.png)
 
 The total number of sheltered animals typically peaks in May of each year and then hits its lowest point around January. There is often a secondary peak sometime after May before the number of sheltered animals drops rapidly. The number of sheltered animals has dropped precipitously in 2020, likely as a result of COVID-19.
 
-![sheltered_by_month.png](sheltered_by_month.png)
+![sheltered_by_month.png](./images/sheltered_by_month.png)
 
 ## Conclusions
 
