@@ -83,7 +83,8 @@ Describe the structure of your repository and its contents, for example:
 ├── code
 │   ├── __init__.py                     <- .py file that signals to python these folders contain packages
 │   ├── visualizations.py               <- .py script to create finalized versions of visuals for project
-│   └── data_cleaning.py                <- .py script used to pre-process and clean data
+│   ├── data_preparation.py             <- .py script used to pre-process and clean data
+│   └── eda_notebook.ipynb              <- Notebook containing data exploration
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
