@@ -23,8 +23,5 @@ Below is a list of the contents of this repository.
   - `__init__.py`: Python helper file that tells Python that there are packages in this folder that can be imported
   - `data_cleaning.py`: Code to prepare data for analysis
   - `visualizations.py`: Code to produce visualizations
+  - `eda_notebook.ipynb`: Notebook with any messy EDA so the main notebook can be more readable
 - `.gitignore`: A hidden file that tells git to not track certain files and folders
-
-## Notes
-
-- The code within `visualizations.py` and `data_cleaning.py` are examples of well-documented code.
