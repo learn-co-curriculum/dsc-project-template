@@ -61,9 +61,9 @@ For additional info, contact Alison Peebles Madigan at [alison.peeblesmadigan@fl
 ```
 ├── code
 │   ├── __init__.py
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   └── visualizations.py
+│   ├── data_preparation.py
+│   ├── visualizations.py
+│   └── eda_notebook.ipynb
 ├── data
 ├── images
 ├── __init__.py
