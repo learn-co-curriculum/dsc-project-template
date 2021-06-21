@@ -18,6 +18,7 @@ Below is a list of the contents of this repository - instructions for using them
 
 ## Instructions For Using This Repository
 
+
 ### Fork This Repository
 
 **For a group project**, have only one team member do these steps:
@@ -61,6 +62,9 @@ Below is a list of the contents of this repository - instructions for using them
    - Any unused images in the `images` folder
 
 ### Submit Your Project
+
+Tasks Completed: 
+- submitted contract to David
 
 To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
 
