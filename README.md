@@ -1,71 +1,85 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Microsoft Studios Pitch 
 
-![blueprint](images/blueprint.png)
+![example](images/director_shot.jpeg)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+**Authors**: Tony Bai, Douglas Lu, Sanjit Varma, Brett Zimmerman
 
-## Repository Contents
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+## Overview
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `data` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+Microsoft is looking to break into original content film making by creating a new movie studio. Using data from online movie resource websites such as TMDB, The Numbers, and IMDB, our team analyzed historical data (focusing on "financial success") and its relationships compared to the time of film release, film genres, and film length to provide insights that can help guide Microsoft Studios in their new venture to become an industry leader down the road. Through merging of data frames and visual representations, our team was able to identify three distinct insights that Microsoft Studios should focus on: length of film, release window, and genre. 
 
-## Instructions For Using This Repository
+## Business Problem
 
-### Fork This Repository
+To help Microsoft Studios produce the next box-office movie, our team was tasked to analyze past box-office films to find insights and factors that contributed to a film’s success. We were then called upon to utilize any findings to formulate three actionable recommendations for Microsoft Studios. These three recommendations would serve as the Studio’s decision-making pillars when determining what type of film to produce. 
 
-**For a group project**, have only one team member do these steps:
+Given that Microsoft does not have a clear insight about what kind of movie to produce and that generating the maximal amount of profit is a big priority for the company and its shareholders and stakeholders, it is necessary for us to first identify what genre of film would be most successful. To begin this exploration, we must identify the genres that have historically had the highest success rate. For the purpose of this analysis, we will define success as a profit equivalent to 1.5 times the production budget. Upon gathering this information, we filter out the least successful genres and identify the most profitable genre based on historical evidence of the last decade. We will also look at the average budget to make a film in each genre to get a clearer picture of how much would be needed to spend. While identifying a genre of film to produce is helpful, it is also important to find the best time to release the film. This will be achieved by calculating the success % rate of films produced in each month. Success over here is again defined the same manner as mentioned earlier. And finally, we felt that a movie’s runtime is a major factor in affecting the audience's decision to watch a movie. Therefore, we will also explore if there is a correlation between a movie’s runtime and the profit it generates.
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+Questions to answer:
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+Which genre has historically had the highest success rate?
+Which of the most successful genres has historically generated the highest profit?
+What are the average budgets for each genre?
+In which month have films historically been more successful?
+Is there a correlation between a movie’s runtime and its profit?
+These questions are important to consider so that Microsoft can identify certain attributes of movies in recent years that made them successful. It would be helpful to identify what kind of genre would have a higher chance of generating the level of profit Microsoft may want. From a creative standpoint, it may be useful for film creators to learn what the optimal movie runtime to make a successful film is. When undergoing a big project like this, it is helpful to set a target deadline by when the film should be released. If we can find the best time of the year to release Microsoft’s inaugural release, it can help increase the likelihood of the production generating a profit.
+***
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+## Data
 
-### Work In Your Fork Of This Repository
+Describe the data being used for this project.
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+The data used in this project came from IMDB, TMDB, and The Numbers. The tables include data on movie titles, release dates, runtimes, ratings, and earnings. The movies included in the data range from 2010 to 2019. There are also columns added in with functions such as profit. The target variable is the most optimal movie to return a profit based on insights gathered about genre, runtime, and release month.
+***
 
-### Use The Slide Template
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
+## Methods
 
-### Tidy Up Your Project
+Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
+After opening the raw datasets with pandas, we cleaned and prepared the data by converting some string data types to float, removing the rows of null values that prevented us from doing transformations, separating rows where a column has many values together, and merging datasets through key columns. Data was further cleaned by obtaining relevant subsets for the analysis performed.
 
-### Submit Your Project
-
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+Descriptive analysis was used through the use of bar graphs, scatter plots, and aggregate functions. Since the business problem is to identify the type of movie to make based on past data, we opted to identify trends using graphs.
 
 ***
-### Notes
+Questions to consider:
+* How did you prepare, analyze or model the data?
+* Why is this approach appropriate given the data and the business problem?
+***
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+## Results
+
+<b>Recommendation 1</b>: The movie runtime should be between 90 and 165 minutes.
+
+Based on our own assumption of success, which is when a movie’s profits exceed 1.5x the budget,  the success rate of movies is highest when the runtime falls between 90 and 165 minutes. The idea is based on the notion that many people don’t like sitting through longer movies. If we can avoid that, that's already a large audience that won’t be alienated. Our results were gathered by getting an aggregate of the success rate of movies in different time intervals. We first checked the success rate in movies grouped by a smaller time interval, and continued testing the outer bounds of that interval. The bucket of successful movies was shown to be the largest when the outer bound was capped at 165 minutes.
+
+ 
+![example](images/Chart1.jpeg)
+***
+ 
+![example](images/chart2.jpeg)
+ 
+![example](images/chart3.jpeg)
+
+
+<b>Recommendation 2</b>: The movie should be released in November.
+
+Having found the optimal runtime for the movie, we started exploring the best time to release it. First, we took the release date of each film in the last 10 years from our dataset and started categorizing them into seasons- ”Spring”, ”Summer”, ”Fall”, ”Winter.” We decided to group the films this way because it is typical in the film industry to first identify the release season before finalizing the best release date later into production.  When grouping films seasonally and measuring the average success rate (based on the aforementioned assumption of success being 1.5x the production budget) of each group, we can see that the Spring season has the highest chance of success. However, we can also see that there isn’t a decisive winner in terms of which season generates the highest success rate- given that the second best season’s (Winter) success rate (35.66%) is only marginally behind that of the Spring season (36.8%).
+![example](images/season.jpeg)
+
+To get a more conclusive answer, we decided that we needed to segment our dataset of movie release dates into groups by month rather than by season. Having made this change, we now saw a more clear differentiation between groups. November, January and July were visibly clear winners. Finally, we recommend the month of November to be the ideal release date for a few important reasons.
+![example](images/month.jpeg) 
+
+Firstly, November is a favorite month for several film studios that are looking to release films that generate buzz during the awards season. Releasing a high quality film right before the awards season may give Microsoft an opportunity to find themselves earning some of the most prestigious accolades in the business which would solidify the film’s credibility and therefore make it an asset that can generate revenue for several years into the future. Also, November is a season of festivities in the United States when discretionary expenditure is higher than average. Finally, our analysis also shows that November has the highest percentage chance of success -albeit marginally over January and July.
+
+
+
+<b>Recommendation 3</b>: The movie genre should be Sci-Fi
+
+Staying consistent with our goal to return 1.5x budget, we analyze the success rate of each film genre from our sample. The top 5 Categories were Animation, Adventure, Musical, Mystery and Sci-Fi. Although animation has a success rate of 60.5% which is ~14% higher than the next category, we decided to explore the data further. 
+
+After analyzing the average budget and profit for each of the top 5 genres, we were able to calculate the ROI for each genre. We then decided to take it a step further and calculate the expected ROI for each genre by applying the probability of the outcome onto the ROI. From the data we can conclude that Sci-Fi returns the highest expected ROI while having one the third lowest average budget. From a stakeholder’s perspective, the team believes that this provides the most upside while limiting risk.
+
+![example](images/genres.jpeg) 
+
+
