@@ -30,6 +30,7 @@ Releasing our film during May is ideal. History has shown that May returns the g
 ### Visual 1
 ![graph1](./images/avg_gross_border.png)
 
+### Visual 2
 ![graph2](./images/total_movies.png)
 
 May is historically the best month for large movie productions, so we should aim to debut our film then.
