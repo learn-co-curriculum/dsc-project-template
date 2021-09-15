@@ -28,7 +28,7 @@ We first prepared the BigFrame by combining all the necessary tables together us
 Releasing our film during May is ideal. History has shown that May returns the greatest revenue income for large production movies. With other movie competition not being so high in the beginning half of the year, May presents itself as the most ideal opportunity to debut our blockbuster film.
 
 ### Visual 1
-![graph1](./images/genre_domestic.png) ![graph3](./images/genre_foreign)
+![graph1](./images/genre_domestic.png) ![graph3](./images/genre_foreign.png)
 Genres 'Adventure' and 'Sci-fi' returns the highest median gross for movies within our dataset.
 
 ### Visual 2
