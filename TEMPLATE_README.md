@@ -19,7 +19,9 @@ Questions to consider:
 
 ## Data
 
-Describe the data being used for this project.
+The dataset we are using (BigFrame) is derived from 'bom.movie_gross.csv', 'imdb.title.basics.csv', and 'tn.movie_budgets.csv'
+
+BigFrame contains the columns 'release_date', 'movie', 'production_budget', 'worldwide_gross', 'foreign_gross', 'year', 'runtime minutes', and 'genres'. These columns should help us find out the formula to a great movie launch, if there is such a method.
 
 ***
 Questions to consider:
@@ -31,7 +33,8 @@ Questions to consider:
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+We first prepared the BigFrame by combining all the necessary tables together using a common attribute ('movie'). Next we dropped all unnecessary columns and removed any duplicate entries. We then created two columns 'month' and 'year' in order to manipulate the data using time. Lastly, we dropped the rows with missing data which left us with BigFrame of 977 rows. 
+
 
 ***
 Questions to consider:
@@ -41,7 +44,7 @@ Questions to consider:
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+Releasing our film during May is ideal. History has shown that May returns the greatest revenue income for large production movies. With other movie competition not being so high in the beginning half of the year, May presents itself as the most ideal opportunity to debut our blockbuster film.
 
 ***
 Questions to consider:
@@ -52,7 +55,8 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
-![graph1](./images/viz1.png)
+![graph1](./images/average_worldwide_gross.png)
+
 
 ## Conclusions
 
