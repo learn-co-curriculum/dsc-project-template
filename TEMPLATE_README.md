@@ -4,6 +4,8 @@
 
 ## Overview
 
+Task: Inform Microsoft on how they can premier their first movie successfully. We investigated past movies to see what made the most money and how we can replicate them. We broke down those movies into these categories: What genres are selling, how much money are they spending, and when is the right time to release our movie?
+
 A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
 
 ## Business Problem
@@ -29,7 +31,8 @@ Releasing our film during May is ideal. History has shown that May returns the g
 
 ### Visual 1
 ![graph1](./images/genre_domestic.png) ![graph3](./images/genre_foreign.png)
-Genres 'Adventure' and 'Sci-fi' returns the highest median gross for movies within our dataset.
+
+Genres 'Adventure' and 'Sci-fi' returns the highest median gross for movies within our dataset. 'Family' does well domestically, but not too well internationally. 'Action' is also a consistent genre that performs better than average.
 
 ### Visual 2
 ![graph2](./images/genre_totals.png)
