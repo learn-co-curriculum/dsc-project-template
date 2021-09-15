@@ -28,12 +28,16 @@ We first prepared the BigFrame by combining all the necessary tables together us
 Releasing our film during May is ideal. History has shown that May returns the greatest revenue income for large production movies. With other movie competition not being so high in the beginning half of the year, May presents itself as the most ideal opportunity to debut our blockbuster film.
 
 ### Visual 1
-![graph1](./images/average_worldwide_gross.png)
+![graph1](./images/avg_gross_border.png)
+![graph2](./images/total_movies.png)
+
+May is historically the best month for large movie productions, so we should aim to debut our film then.
+Combined with the relatively low volume, there is no better time in the year.
 
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+Any skepticism in our data or how we could further explore our dataset (more potentially relevant comparisons)
 
 ***
 Questions to consider:
