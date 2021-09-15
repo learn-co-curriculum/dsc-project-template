@@ -51,6 +51,10 @@ Combined with the relatively low volume, there is no better time in the year.
 
 Any skepticism in our data or how we could further explore our dataset (more potentially relevant comparisons)
 
+Sample was 967 movies, ideally we would want that number to be larger.
+
+Go further in depth about how much Sci-Fi and Adventure movies are spending (production_budget) in order to get good returns as shown in Visual 1.
+
 ***
 Questions to consider:
 * What would you recommend the business do as a result of this work?
