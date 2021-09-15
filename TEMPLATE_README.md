@@ -8,7 +8,7 @@ A one-paragraph overview of the project, including the business problem, data, m
 
 ## Business Problem
 
-Microsoft is looking to launch a movie, however they are unsure of the space. We are here to visualize what types of movies have been doing well historically and how Microsoft can replicate such success.
+Microsoft is looking to launch a movie, however they are unsure of the space. We are here to help visualize what types of movies have been doing well historically and how Microsoft can replicate such success.
 
 
 ## Data
@@ -28,23 +28,19 @@ We first prepared the BigFrame by combining all the necessary tables together us
 Releasing our film during May is ideal. History has shown that May returns the greatest revenue income for large production movies. With other movie competition not being so high in the beginning half of the year, May presents itself as the most ideal opportunity to debut our blockbuster film.
 
 ### Visual 1
-![graph1](./images/genre_domestic.png)
-
+![graph1](./images/genre_domestic.png) ![graph3](./images/genre_foreign)
 Genres 'Adventure' and 'Sci-fi' returns the highest median gross for movies within our dataset.
 
 ### Visual 2
 ![graph2](./images/genre_totals.png)
-
 Not many production companies are creating Sci-fi films even though they are in high demand. This creates the perfect opportunity for our team.
 
 ### Visual 5
 ![graph5](./images/avg_gross_bordered.png)
-
 May is historically the best month for large movie productions. Could be due to summer time and people going on vacations / more free time. Or perhaps because the hot weather encourages more indoor activies. Regardless, summer time is especially attractive time to release our film.
 
 ### Visual 6
 ![graph6](./images/total_movies.png)
-
 Combined with the relatively low volume, there is no better time in the year.
 
 
