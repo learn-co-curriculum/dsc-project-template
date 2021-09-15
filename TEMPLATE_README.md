@@ -28,7 +28,7 @@ We first prepared the BigFrame by combining all the necessary tables together us
 Releasing our film during May is ideal. History has shown that May returns the greatest revenue income for large production movies. With other movie competition not being so high in the beginning half of the year, May presents itself as the most ideal opportunity to debut our blockbuster film.
 
 ### Visual 1
-![graph1](./images/avg_gross_border.png)
+![graph1](./images/avg_gross_bordered.png)
 
 ### Visual 2
 ![graph2](./images/total_movies.png)
