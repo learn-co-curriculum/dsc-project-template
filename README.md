@@ -48,7 +48,7 @@ I continuously scoured my data to ensure that it was clean and complete, watchin
 * Unsurprisingly, higher number of ratings tend to correlate with higher profit. More people seeing and rating the movie would equate to more profitability. Weak but positive correlations associated with both average movie rating and movie runtime as well as the number of votes and movie run time. Top grossing films are in the Adventure, Action, Comedy, Sci-Fi, Animation, Fantasy, Thriller, Drama and Crime genres respectively, among others listed. Genres were difficult to analyze in this dataset due to the structure, and I would like additional time to reassess genre specific data for more specific recommendations pertinent to genre. Number of ratings are a critical variable in evaulating the average rating as with a low number of ratings, the average rating data will be skewed. 
 * This data could be generalized beyond the data possessed. I believe that while the results I have extrapolated from my analysis are broad in terms of recommendations, they are supported and could be replicated with similar or additional data. I would like to see a dataset with single genres rather than mixed or multiple genres per title as that really has the potential to skew counts and analysis using genre as a variable. 
 
-Here is an example of how to embed images from your sub-folder:
+
 
 ### Visual 1
 ![graph1](./images/viz1.png)
@@ -72,13 +72,11 @@ Limitations of this analysis would be the lack of insight into genre specificity
 
 ## For More Information
 
-Please review my full analysis in [our Jupyter Notebook](./dsc-phase1project-microsoftmoviestudioanalysis-eakland.ipynb) or our [presentation](./DS_Project_Presentation_Eakland.pdf).
+Please review my full analysis in [my Jupyter Notebook](./dsc-phase1project-microsoftmoviestudioanalysis-eakland.ipynb) or my [presentation](./Copy of DS_Project_Presentation_Eakland.pdf).
 
 For any additional questions, please contact **Ashley Eakland, ashley@eakland.net**
 
 ## Repository Structure
-
-Describe the structure of your repository and its contents, for example:
 
 ```
 ├── README.md                                               <- The top-level README for reviewers of this project
