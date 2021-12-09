@@ -51,8 +51,9 @@ I continuously scoured my data to ensure that it was clean and complete, watchin
 ### Genre
 ![graph1](./images/top_grossing_genres.png)
 ![graph2](./images/top_ranking_genres.png)
+![graph3](./images/most_rated_genres.png)
 
-Top grossing films are in the Adventure, Action, Comedy, Sci-Fi, Animation, Fantasy, Thriller, Drama and Crime genres respectively, among others listed. Genres were difficult to analyze in this dataset due to the structure, and I would like additional time to reassess genre specific data for more specific recommendations pertinent to genre.
+Top grossing films are in the Adventure, Action, Comedy, and Drama genres respectively, among others listed. Genres were difficult to analyze in this dataset due to the structure, and I would like additional time to reassess genre specific data for more specific recommendations pertinent to genre.
 
 ### Movie Length
 ![graph3](./images/avg_rating_runtime.png)
@@ -61,7 +62,8 @@ Top grossing films are in the Adventure, Action, Comedy, Sci-Fi, Animation, Fant
 Positive correlations associated with both average movie rating and movie runtime as well as the number of votes and movie run time.  Number of ratings are a critical variable in evaulating the average rating as with a low number of ratings, the average rating data will be skewed. 
 
 ### Rating Importance
-* Higher number of ratings tend to correlate with higher profit. More people seeing and rating the movie would equate to more profitability. 
+* Higher number of ratings tend to correlate with higher profit. More people seeing and rating the movie would equate to more profitability. Intuitively, this makes sense. Though, I will admit that intuition would be that there might be a stronger correlation between average rating and gross profit, but that is not the case in this dataset.
+
 ![graph5](./images/heat_map_profit.png)
 ![graph5](./images/num_ratings_profit.png)
 
@@ -71,11 +73,11 @@ Positive correlations associated with both average movie rating and movie runtim
 Limitations of this analysis would be the lack of insight into genre specificity. I would like to dive deeper into the genres and how they relate with ratings and profitability at a later date if the time allows. 
 
 ### Business Recommendations
- -Focus on the genres of Adventure, Action, Comedy, Sci-Fi, Animation, Drama, Thriller, Fantasy, and Biography. These genres appear on all of the top ranking films domestically. While the Biography genre does not appear on the top grossing genre count, it does appear relatively high up on the rank of top ranked genres. With a positive correlation between number of ratings and gross profit, I would recommend considering including Biography as a genre or subgenre on your menu as the viewers appear to like them. 
+ -Focus on the genres of Adventure, Action, Comedy, Drama, and Thriller. These genres appear on all of the top ranking films domestically.
  
  -As previously stated, ratings are important. There is a positive correlation between higher number of ratings and higher profit. We want to maximize on the number of ratings we are getting as that has a stronger direct correlation to gross profit than average rating, which would logically make sense. Each "vote" is one ticket at the box office, and we want as many ratings as possible.
  
- -Lastly, with a positive correlation between run time and average movie rating coupled with the shown positive correlation between movie runtime and ratings, I would recommend sticking around 100 minutes of runtime for optimal movie performance. 
+ -Lastly, with a positive correlation between run time and average movie rating coupled with the shown positive correlation between movie runtime and ratings, I would recommend sticking around 120 minutes of runtime for optimal movie performance. 
  
 * What are some reasons why your analysis might not fully solve the business problem? 
     My analysis may not fully solve the problem as it does not break down which genre specifically is most profitable or which genre specifically ranks the highest due to the challenges I faced.
