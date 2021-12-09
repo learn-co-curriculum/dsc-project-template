@@ -1,5 +1,7 @@
 # Microsoft Movie Studio Analysis
 
+![img](./images/director_shot.jpeg)
+
 **Authors**: Ashley Eakland
 
 
@@ -45,13 +47,25 @@ I continuously scoured my data to ensure that it was clean and complete, watchin
 ## Results
 
 ***
-* Unsurprisingly, higher number of ratings tend to correlate with higher profit. More people seeing and rating the movie would equate to more profitability. Weak but positive correlations associated with both average movie rating and movie runtime as well as the number of votes and movie run time. Top grossing films are in the Adventure, Action, Comedy, Sci-Fi, Animation, Fantasy, Thriller, Drama and Crime genres respectively, among others listed. Genres were difficult to analyze in this dataset due to the structure, and I would like additional time to reassess genre specific data for more specific recommendations pertinent to genre. Number of ratings are a critical variable in evaulating the average rating as with a low number of ratings, the average rating data will be skewed. 
-* This data could be generalized beyond the data possessed. I believe that while the results I have extrapolated from my analysis are broad in terms of recommendations, they are supported and could be replicated with similar or additional data. I would like to see a dataset with single genres rather than mixed or multiple genres per title as that really has the potential to skew counts and analysis using genre as a variable. 
 
+### Genre
+![graph1](./images/top_grossing_genres.png)
+![graph2](./images/top_ranking_genres.png)
 
+Top grossing films are in the Adventure, Action, Comedy, Sci-Fi, Animation, Fantasy, Thriller, Drama and Crime genres respectively, among others listed. Genres were difficult to analyze in this dataset due to the structure, and I would like additional time to reassess genre specific data for more specific recommendations pertinent to genre.
 
-### Visual 1
-![graph1](./images/viz1.png)
+### Movie Length
+![graph3](./images/avg_rating_runtime.png)
+![graph4](./images/num_votes_runtime.png)
+
+Positive correlations associated with both average movie rating and movie runtime as well as the number of votes and movie run time.  Number of ratings are a critical variable in evaulating the average rating as with a low number of ratings, the average rating data will be skewed. 
+
+### Rating Importance
+* Higher number of ratings tend to correlate with higher profit. More people seeing and rating the movie would equate to more profitability. 
+![graph5](./images/heat_map_profit.png)
+![graph5](./images/num_ratings_profit.png)
+
+* This data could be generalized beyond the data possessed. I believe that while the results I have extrapolated from my analysis are broad in terms of recommendations, they are supported and could be replicated with similar or additional data. I would like to see a dataset with single genres rather than mixed or multiple genres per title as that really has the potential to skew counts and analysis using genre as a variable.
 
 # Conclusions
 Limitations of this analysis would be the lack of insight into genre specificity. I would like to dive deeper into the genres and how they relate with ratings and profitability at a later date if the time allows. 
@@ -61,7 +75,7 @@ Limitations of this analysis would be the lack of insight into genre specificity
  
  -As previously stated, ratings are important. There is a positive correlation between higher number of ratings and higher profit. We want to maximize on the number of ratings we are getting as that has a stronger direct correlation to gross profit than average rating, which would logically make sense. Each "vote" is one ticket at the box office, and we want as many ratings as possible.
  
- -Lastly, I see a positive (though weak) correlation between run time and average movie rating as seen on the scatter plot. With the shown positive correlation between movie runtime and rating, I would recommend sticking around 100 minutes of runtime for optimal movie performance. 
+ -Lastly, with a positive correlation between run time and average movie rating coupled with the shown positive correlation between movie runtime and ratings, I would recommend sticking around 100 minutes of runtime for optimal movie performance. 
  
 * What are some reasons why your analysis might not fully solve the business problem? 
     My analysis may not fully solve the problem as it does not break down which genre specifically is most profitable or which genre specifically ranks the highest due to the challenges I faced.
@@ -72,7 +86,7 @@ Limitations of this analysis would be the lack of insight into genre specificity
 
 ## For More Information
 
-Please review my full analysis in [my Jupyter Notebook](./dsc-phase1project-microsoftmoviestudioanalysis-eakland.ipynb) or my [presentation](./Copy of DS_Project_Presentation_Eakland.pdf).
+Please review my full analysis in [my Jupyter Notebook](./dsc-phase1project-microsoftmoviestudioanalysis-eakland.ipynb) or my [presentation](./DS_Project_Presentation_Eakland.pdf).
 
 For any additional questions, please contact **Ashley Eakland, ashley@eakland.net**
 
