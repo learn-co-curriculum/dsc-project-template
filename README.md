@@ -20,7 +20,21 @@ We imported data from both of these sources and merged them together, removing u
 
 As a means of filtering the data by date, we wanted to look at a time frame that was relevant to a consistent period within the movie and streaming industry. We chose the a range of realease years that fell within the time frame of 2014 to 2018. Our choice to include this time frame came from the prevalence of streaming services as a normal aspect of consumer decision making. Netflix also began their movie industry, creating their own original films and shows in 2014. Within this time frame we found foreign markets to perform 44.5% better in USD than domestic markets of the same film. 
 
-Another technique that we implemented was to look through
+
+
+
+
+
+
+
+
+Per our statistical data as shown in the boxplot below, when considering creating a movie in the Action, Comedy and Family genres, it behooves the studio to animate the film one can expect a 120% increase in profit.
+
+
+![image (2)](https://user-images.githubusercontent.com/97462844/151560058-f94770c8-b1a3-4972-bba5-7d6282ac9392.png)
+
+
+
 
 
 
