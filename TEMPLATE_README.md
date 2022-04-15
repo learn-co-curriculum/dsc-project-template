@@ -1,10 +1,10 @@
-# Title
+# Microsoft Movie Anaylsis - Project 1
 
-**Authors**: Student1, Student2
+**Authors**: Scott Graham
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+Provide an insight to Microsoft regarding the latest box office films and what is popular and most successful so they can use it for their new movie studio.
 
 ## Business Problem
 
