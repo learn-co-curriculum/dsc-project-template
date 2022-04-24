@@ -1,84 +1,89 @@
+![microsoft_logo](images/micro_logo.jpg)
 # Microsoft Movie Anaylsis - Project 1
 
-**Authors**: Scott Graham
+**Author**: Scott Graham
 
 ## Overview
 
-Provide an insight to Microsoft regarding the latest box office films and what is popular and most successful so they can use it for their new movie studio.
+The goal of this analysis is to provide an insight for [Microsoft](https://www.microsoft.com/en-au/movies-and-tv?activetab=movies%3aprimaryr2) regarding the latest box office films and what is popular and most successful so they can leverage this information to provide quality content in their new movie studio. Detailed analysis of what is "hot or not" will ensure that resources are spent developing content that will be widely accepted and best return on investment for Microsoft.
+
+![imdb_logo](images/IMDB_logo.jpg)
 
 ## Business Problem
-Testing theory....
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
+Microsoft need to provide movie content that is relevant with current trends, to ensure that their resource allocation is directed in the right direction to provide the best results. Using multiple databases from [IMDB](https://www.imdb.com/) to gain insights from the reviews of fans and critics to provide the best information about what is trending with Microsoft's intended audience. Supplemented with the current gross revenue information provided by [Box Office Mojo](https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/) from 2010 to 2018.
 
-## Data
+Understanding what movies have made the highest gross at the box office worldwide, have the highest rating amongst fans and critics alike and the most popular genres from a profitability and review standpoint will provide Microsoft with the insight to direct resources to creating the best content possible.
 
-Describe the data being used for this project.
+![bom_logo](images/bom_logo.png)
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
+## Data Understanding
+
+[IMDB](https://www.imdb.com/) is one of the largest database for information relating to movies and TV series that includes information about the cast, crew, plot summaries, rating and reviews both critcal and fan-based.
+Each review has a unique ID associated to the movie details and the ratings. The data files provides information on the studio that created the movie, the running time, the year it was released and genre.
+
+[Box Office Mojo](https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/) provides the lifetime highest gross movies and this dataset has been restricted from 2010 to present. This information will be useful to find the top grossing movies and insights we can make from why they are the top gross movies.
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
-
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
+Data cleaning involved:
+● Removing symbols out of titles
+● Dropping of columns
+● Conversion of data types
+● Separation of Genres
+Merged all datasets together to provide best use of
+information
+Further data cleaning:
+● Removal of NaN values
+● Creation and deletion of columns
+● Restriction of data based on gross and ratings
+Modelling of data to suit business problem
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+Scatter plot to compare th number of votes with the average rating given. This provided a trend that the more votes a movie obtained the higher the rating typically was.
 
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
+![votes_vs_rating](images/votes_vs_rating.jpg)
 
-Here is an example of how to embed images from your sub-folder:
+Showing the top 10 movies with the highest gross. 
+90% of these top 10 were Action and Adventure films. 
+60% of these top 10 were also from BV (Marvel) studio.
 
-### Visual 1
-![graph1](./images/viz1.png)
+![top_10_gross](images/top_ten_gross.jpg)
+![top_10_gross_graph](images/top_ten_gross_graph.jpg)
+
+Action and Adventure movies were the most frequent. This was after the removal of all movies that fell below the mean total gross of all films AND also the removal of all movies that had a mean rating less than the the overall mean for the complete dataset. This was to negate any irrelevant data and outliers on the low end.
+
+![count_of_genres](images/count_of_genre.png)
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+● Prioritise the creation of Action and Adventure movies for the highest gross.
+● Movies last greater than 100 minutes were seen in the top 10 gross and top 10 from ratings.
 
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
+## Next Steps
+
+● Data related to cost of creating movies would directly influence the current suggestions.
+● Analysis didn’t provide any clear cut definitive to provide certainty in success of movies.
+● Additional data would be required.
+
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in the [Jupyter Notebook](./Microsoft_Movie_Analysis.ipynb) or review the [presentation](./Microsoft_Movie_Studio_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Scott Graham at scottgraham14@gmail.com**
+
+![microsoft_logo](images/micro_logo.jpg)
 
 ## Repository Structure
 
 Describe the structure of your repository and its contents, for example:
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── data                          
+├── images   
+├── Microsoft_Movie_Analysis.ipynb         
+├── Microsoft_Movie_Studio_Presentation.pdf                                
+└── README.md                              
 ```
