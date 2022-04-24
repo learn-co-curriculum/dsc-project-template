@@ -27,16 +27,26 @@ Each review has a unique ID associated to the movie details and the ratings. The
 ## Methods
 
 Data cleaning involved:
+
 ● Removing symbols out of titles
+
 ● Dropping of columns
+
 ● Conversion of data types
+
 ● Separation of Genres
+
 Merged all datasets together to provide best use of
 information
+
 Further data cleaning:
+
 ● Removal of NaN values
+
 ● Creation and deletion of columns
+
 ● Restriction of data based on gross and ratings
+
 Modelling of data to suit business problem
 
 ## Results
@@ -59,12 +69,15 @@ Action and Adventure movies were the most frequent. This was after the removal o
 ## Conclusions
 
 ● Prioritise the creation of Action and Adventure movies for the highest gross.
+
 ● Movies last greater than 100 minutes were seen in the top 10 gross and top 10 from ratings.
 
 ## Next Steps
 
 ● Data related to cost of creating movies would directly influence the current suggestions.
+
 ● Analysis didn’t provide any clear cut definitive to provide certainty in success of movies.
+
 ● Additional data would be required.
 
 
