@@ -59,6 +59,8 @@ Below is a list of the contents of this repository - instructions for using them
    - This README file: `README.md`
    - Any unused data files in the `data` folder
    - Any unused images in the `images` folder
+- Utilize the .gitignore file to ignore large unzipped data files in the `data` folder
+   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
 
 ### Submit Your Project
 
