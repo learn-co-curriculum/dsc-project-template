@@ -56,7 +56,6 @@ Below is a list of the contents of this repository - instructions for using them
 - Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
 - Delete unnecessary files from the repo using `git rm`
    - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
    - Any unused data files in the `data` folder
    - Any unused images in the `images` folder
 - Utilize the .gitignore file to ignore large unzipped data files in the `data` folder
