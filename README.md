@@ -12,7 +12,7 @@ Below is a list of the contents of this repository - instructions for using them
 - `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
 - `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
 - `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `data` folder: A folder for the data you reference with your code
+- `zippedData` folder: A folder for the data you reference with your code
 - `images` folder: A folder for the images you reference in your files 
 - `.gitignore`: A hidden file that tells git to not track certain files and folders
 
@@ -56,9 +56,10 @@ Below is a list of the contents of this repository - instructions for using them
 - Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
 - Delete unnecessary files from the repo using `git rm`
    - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
+   - Any unused data files in the `zippedData` folder
    - Any unused images in the `images` folder
+- Utilize the .gitignore file to ignore large unzipped data files in the `zippedData` folder
+   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
 
 ### Submit Your Project
 
