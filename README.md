@@ -17,7 +17,7 @@ Below is a list of the contents of this repository.
 - `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
 - `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
 - `__init__.py`: Python helper file that tells Python that there are packages in the repository that can be imported
-- `data` folder: A folder for the data you reference with your code
+- `zippedData` folder: A folder for the data you reference with your code
 - `images` folder: A folder for the images you reference in your files
 - `code` folder: A folder for the python scripts that your Jupyter Notebook imports
   - `__init__.py`: Python helper file that tells Python that there are packages in this folder that can be imported
