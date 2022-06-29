@@ -34,18 +34,23 @@ Checking the information on the new dataframe complete_df, I then cleaned up the
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+3 of the above graphs, Domestic Gross Sales, Foreign Gross Sales and Number of Votes clearly show that Adventure, Action and Sci-Fi combination are most successful in Domestic and Foreign Gross Sales and also in the average rating given. Its clear also to see that the adventure genre is popular across the board especially when elements of animation, action and or comedy are also included.
+
+The 4th graph showing Top 20 Average Ratings shows Adventure as top as a solo genre.
+
+To improve confidence in the results next time I would:-
+
+Include the movie classification This could have narrowed down the target audience the most successful movies were aimed at i.e PG etc.
+
+Broken the data into the relevant years to see if there are changes year by year in the top genres of movies, see if audience tastes change over time.
+
+
 
 ***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
+
 ***
 
-Here is an example of how to embed images from your sub-folder:
 
-### Visual 1
-![graph1](./images/viz1.png)
 
 ## Conclusions
 
