@@ -155,3 +155,11 @@ ipython_config.py
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Ignore unzipped stuff
+zippedData/im.db.zip
+/zippedData/im.db.zip
+./zippedData/im.db.zip
+zippedData/im.db
+/zippedData/im.db
+./zippedData/im.db
