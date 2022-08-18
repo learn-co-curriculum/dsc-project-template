@@ -1,6 +1,6 @@
-# Title
+# Microsoft Films Analysis
 
-**Authors**: Student1, Student2
+**Author**: Daniel Tong
 
 ## Overview
 
