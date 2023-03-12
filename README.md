@@ -1,9 +1,21 @@
 #  MICROSOFT MOVIE STUDIO MARKET RESEARCH
 ## Author:Winfred Kabuya
 
-![image](images/blueprint.png)
+![image](images/Microsoft movie studio.jpeg)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+ ## Overview
+This project aims to provide recommendations to Microsoft regarding the types of movies that perform well among audiences, using data analysis of movie ratings and popularity. Microsoft plans to launch its own movie studio and has requested guidance as a newcomer to the industry. The project utilizes datasets from various sources, such as Box Office Mojo, IMDb, Rotten Tomatoes, The Movie Database, and The Numbers. The primary focus of the analysis is the IMDb datasets, which include movie information from 2010 to 2019, such as genres, average user ratings, and the number of users who voted on each movie. The analysis resulted in identifying 10 high-performing genres for Microsoft to prioritize and providing recommendations on how much of its budget should be allocated to Action movies and animated movies.
+
+## Business Problem
+When measuring success in the movie industry, it may not be sufficient to only consider the attributes that generate the highest return-on-investment at the box office, especially in the streaming era. Rather, the number of people who watch the movie should be the primary measure of success. As Microsoft considers whether to sell its movies to streaming services or launch its own, it needs to determine which types of movies will attract the most viewers. To gauge this, I use the number of votes a movie receives on IMDb as a proxy for the number of viewers. By analyzing this metric, I aim to answer the following questions: which 5 genres typically perform the best, and how much focus should Microsoft place on producing comedies and action movies? 
+
+## Data Understanding
+
+IMDb is a highly popular website for obtaining basic information on movies and TV shows, including user reviews.As of March 2022, the database contained some 10.1 million titles (including television episodes) and 11.5 million person records. Additionally, the site had 83 million registered users and is the 54th most visited website in the world, according to website ranker Alexa as of February 12, 2023.
+
+The data that I will be working with is stored in a SQL file and contains two main tables: movie_basics and movie_ratings. The movie_basics table provides details on each movie's name, release year, runtime, and genres, while the movie_ratings table presents the total number of votes a movie has received and its rank based on those votes.
+
+Both tables share a unique identifier for each movie called movie_id. To analyze the data, I intend to group the movies by genre and determine the number one ranked movie for each genre based on its total number of votes.
 
 ## Repository Contents
 
