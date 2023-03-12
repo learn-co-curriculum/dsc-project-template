@@ -1,5 +1,5 @@
 #  MICROSOFT MOVIE STUDIO MARKET RESEARCH
-## Author:Winfred Kabuya
+## Author: Winfred Kabuya
 
 ![image](images/Microsoft movie studio.jpeg)
 
