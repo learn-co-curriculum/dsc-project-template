@@ -1,7 +1,7 @@
 #  MICROSOFT MOVIE STUDIO MARKET RESEARCH
 ## Author: Winfred Kabuya
 
-![image](images/Microsoft.jpeg.png)
+![image](images/Microsoft.jpeg)
 
  ## Overview
 This project aims to provide recommendations to Microsoft regarding the types of movies that perform well among audiences, using data analysis of movie ratings and popularity. Microsoft plans to launch its own movie studio and has requested guidance as a newcomer to the industry. The project utilizes datasets from various sources, such as Box Office Mojo, IMDb, Rotten Tomatoes, The Movie Database, and The Numbers. The primary focus of the analysis is the IMDb datasets, which include movie information from 2010 to 2019, such as genres, average user ratings, and the number of users who voted on each movie. The analysis resulted in identifying 10 high-performing genres for Microsoft to prioritize and providing recommendations on how much of its budget should be allocated to Action movies and animated movies.
