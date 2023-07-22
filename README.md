@@ -1,72 +1,70 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
 
-![blueprint](images/blueprint.png)
+---
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+![Vintage Movie Cassette Tape](https://media.discordapp.net/attachments/1008571220385599488/1126232701146501360/MadsMeyer_peaky_blinders_style_painting_2e662a64-2009-46fd-b8bf-12e84648efc4.png?width=573&height=573)
 
-## Repository Contents
+# Movie Analysis: A Deep Dive into Box Office Performance
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+**Author**: [Oscar Mulei](mailto:omulei@gmail.com)
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `zippedData` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+## Overview
 
-## Instructions For Using This Repository
+This project provides a comprehensive analysis of box office performance for movies. The goal is to offer valuable insights to Microsoft's newly established movie studio. The analysis covers various aspects of movies, such as genres, ratings, budgets, and release dates, to uncover the factors that contribute to a successful box office performance.
 
-### Fork This Repository
+## Business Problem
 
-**For a group project**, have only one team member do these steps:
+![img](https://media.discordapp.net/attachments/1050435586235846767/1052697908295774298/yassein_muhamedddd_action_movie_poster_movie_poster_action_movi_5d7ba72b-db05-4212-917c-85855d4425c1.png?width=573&height=573)
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+Microsoft, recognizing the success of other big companies in creating original video content, is eager to enter the movie industry. However, despite their eagerness, they lack experience in movie creation. The challenge lies in understanding the current movie landscape and identifying the types of films that perform well at the box office. This project aims to explore these aspects, and its findings will guide the decision-making process for Microsoft's new movie studio, helping to decide what type of films to create.
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+## Data
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+The project leverages several datasets, providing comprehensive movie-related information. Each movie has a unique ID associated with its [intake](link-to-intake-dataset) and [outcome](link-to-outcome-dataset) data. The datasets offer valuable data points, such as movie titles, genres, average ratings, domestic and foreign gross revenues, and release years.
 
-### Work In Your Fork Of This Repository
+Given the business problem, we recognize the need to incorporate additional data to provide more comprehensive insights. This includes information on movie genre, budget and box office revenue, director and cast, runtime, and regional and language specifics. However, our current dataset includes the movie name, release year, and IMDB rating. Future enhancements of this analysis may include these additional data points.
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+## Methods
 
-### Use The Slide Template
+This project uses descriptive analysis, including a description of trends over time. This approach offers a useful overview of the factors affecting box office performance and helps identify key success factors.
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
+## Results
 
-### Tidy Up Your Project
+Most successful movies fall within the genres of Action, Comedy, and Drama. Furthermore, there is a positive correlation between movie ratings and box office revenue. The analysis also reveals a moderate budget range associated with successful outcomes.
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - Any unused data files in the `zippedData` folder
-   - Any unused images in the `images` folder
-- Utilize the .gitignore file to ignore large unzipped data files in the `zippedData` folder
-   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
+![results_visualization](./images/results_visualization.png)
 
-### Submit Your Project
+## Conclusions
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+This analysis leads to four key recommendations for Microsoft's new movie studio:
 
-***
-### Notes
+- **Focus on popular genres.** Action, Comedy, and Drama have consistently performed well at the box office.
+- **Invest in quality.** Higher-rated movies tend to yield better revenues.
+- **Adopt a balanced budget strategy.** Successful movies often have moderate budgets.
+- **Release strategically.** Timing plays a crucial role in a movie's box office performance. 
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+### Next Steps
+
+Further analysis could provide additional insights:
+
+- **Identifying top directors and actors.** Understanding who the key players are in the industry can help ensure successful movies.
+- **Marketing strategy assessment.** Analyzing successful marketing campaigns can help craft an effective strategy.
+- **Viewer preference prediction.** Predicting viewer preferences could help in creating content that resonates with the audience.
+
+## For More Information
+
+See the full analysis in the [Jupyter Notebook](./movie-analysis-notebook.ipynb) or review this [presentation](./Movie_Analysis_Presentation.pdf).
+
+For additional info, contact Your Name at [Oscar Mulei](mailto:omulei@gmail.com)
+
+![logo](./images/logo.jpg)
+
+## Repository Structure
+
+```
+├── data
+├── images
+├── README.md
+├── Movie_Analysis_Presentation.pdf
+└── movie-analysis-notebook.ipynb
+```
+---
