@@ -155,3 +155,7 @@ ipython_config.py
 __pycache__/
 *.py[cod]
 *$py.class
+
+*.csv
+*.tsv
+*.db
